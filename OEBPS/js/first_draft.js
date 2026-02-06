@@ -238,7 +238,7 @@
 
         if (prevChapter != "")
         {
-            jqPrevButton = $("<div class='previous button'>Previous page</div>");
+            jqPrevButton = $("<div class='previous button'>上一页</div>");
             $('#header').append(jqPrevButton);
             jqPrevButton.bind("click tap touchstart", function() {
                 moveToPage(prevChapter);
@@ -249,7 +249,7 @@
             
         if (nextChapter != "")
         {
-            jqNextButton = $('<div class="next button">Next page</div>');
+            jqNextButton = $('<div class="next button">下一页</div>');
             $('#header').append(jqNextButton);
             jqNextButton.bind("click tap touchstart", function() {
                 moveToPage(nextChapter);
