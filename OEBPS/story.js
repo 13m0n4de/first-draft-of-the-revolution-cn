@@ -1,2044 +1,2935 @@
 var Story = {
-    "chapter": [
-      {
-        "-id": "chapter1",        "-speaker": "juliette",        "line": [
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "  <span class='date'>Dauphin&#233;, July 1788</span><br/><br/>  "          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "  Dear Henri,  "          },
-          {
-            "tag": "      Complain about the village.    ",            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "<br/><br/>The society here is very bad. I do not know how I can have offended you to be exiled in this wretched place.    ",            "replacements": {
- "tag": "I should not insult his favorite village." }
-          },
-          {
-            "tag": "      There&#8217;s no use in being subtle.    ",            "inclusion": {
- "-initial": "yes" },
-            "content": "<br/><br/>Please bring me home.    ",            "replacements": {
-              "tag": [
-                "I should hint more delicately.",                "Perhaps he will tell me why I am here."              ]
-            },
-            "removals": {
- "tag": "It&#8217;s no use asking again." }
-          },
-          {
-            "tag": "Perhaps he will tell me why I am here.",            "content": "<br/><br/>I wish you would tell me, if I offended you in some way, what I did wrong. I cannot mend the fault if you will not say what it was.    ",            "replacements": {
-              "tag": [
-                "There&#8217;s no use in being subtle.",                "Perhaps I should hint more delicately."              ]
-            },
-            "removals": {
- "tag": "It&#8217;s no use asking again." }
-          },
-          {
-            "tag": "I should hint more delicately.",            "content": "<br/><br/>I miss your company.    ",            "replacements": {
-              "tag": [
-                "Perhaps he will tell me why I am here.",                "There&#8217;s no use in being subtle."              ]
-            },
-            "removals": {
- "tag": "It&#8217;s no use asking again." }
-          },
-          {
-            "tag": "That's so vague, and doesn't catch half of it.",            "components": {
-              "line": [
-                {
- "content": "<br/><br/>It is sunny every day, but coldly so, with a sharp wind off the glacier." },
-                {
-                  "content": "I am not sure I like the Alps, which make me feel as though I may fall sideways off the earth.",                  "removals": {
- "tag": "It is impossible to express the loneliness, because he does not find this place lonely." }
+    "chapter": [{
+            "-id": "chapter1",
+            "-speaker": "juliette",
+            "line": [{
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "  <span class='date'>多菲内，1788年7月</span><br/><br/>  "
                 },
                 {
- "content": "Impossible to imagine putting a well-ordered garden in a place like this." }
-              ]
-            }
-          },
-          {
-            "tag": "      I should not insult his favorite village.    ",            "components": {
-              "line": [
-                {
-                  "tag": "          I can at least compliment the weather.        ",                  "content": "<br/><br/>The weather is very beautiful.        ",                  "replacements": {
- "tag": "That's so vague, and doesn't catch half of it." },
-                  "removals": {
- "tag": "What does he care if I am comfortable?" }
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "  亲爱的亨利，  "
                 },
                 {
-                  "tag": "          I&#8217;ll just mention our new acquaintance.        ",                  "content": "<br/><br/>It is not so quiet here as I feared, because we have a new acquaintance.",                  "replacements": {
-                    "tag": [
-                      "I should just mention the man is a friar.",                      "No, let him be jealous."                    ]
-                  }
+                    "tag": "      抱怨这个村庄。    ",
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "<br/><br/>这里的社交圈子糟透了。我不知道我做了什么得罪您的事，以至于被流放到这个可怜的地方。    ",
+                    "replacements": {
+                        "tag": "我不该侮辱他最喜欢的村庄。"
+                    }
                 },
                 {
-                  "tag": "Hint at the friar&#8217;s scandal.",                  "inclusion": {
-                    "-initial": "no",                    "-final": "no"                  },
-                  "content": "          He says he has come here to give spiritual advice to the son of a nobleman.          ",                  "replacements": {
- "tag": "Henri will laugh at that." }
-                }
-              ]
-            }
-          },
-          {
-            "tag": "Henri will laugh at that.  ",            "components": {
-              "line": [
-                {
-                  "content": "He says he has come here to give spiritual advice to the son of a nobleman.  "                },
-                {
-                  "content": "<br/><br/>I laughed at this. I told him what you said about my spiritual advice and how much use it was likely to be outside of the Convent.  "                },
-                {
-                  "content": "But he said, no, this is not an ordinary nobleman&#8217;s son; it is a bastard, with only his magic to tell him from the peasants.  "                },
-                {
-                  "content": "<br/><br/>I think it will require considerable wisdom to guide such a young man, who has no clear place in the world.  ",                  "removals": {
- "tag": "That might imply a criticism of the boy's noble parent." }
-                }
-              ]
-            }
-          },
-          {
-            "tag": "I should just mention the man is a friar.",            "content": "<br/><br/>It is not so quiet here as I feared, because of our new acquaintance. I believe he is some sort of friar, though we have not been introduced properly.    ",            "replacements": {
-              "tag": [
-                "No, let him be jealous.",                "I&#8217;ll just mention our new acquaintance.",                "Better sound more pathetic."              ]
-            }
-          },
-          {
-            "tag": "Better sound more pathetic.",            "content": "      It is very dull here for company. Really my only consolation is our new acquaintance with some sort of friar. We have not been introduced properly, so I am not sure to what order he belongs.    ",            "replacements": {
- "tag": "I should just mention the man is a friar." }
-          },
-          {
-            "tag": "No, let him be jealous.",            "components": {
-              "line": [
-                {
-                  "content": "<br/><br/>It is not so quiet here as I feared, because of our new acquaintance."                },
-                {
-                  "content": "The kitchen girls talk of nothing but his looks. He has a striking face, not at all refined, but with piercing eyes that are almost black, and a great deal of animal vigor."                },
-                {
-                  "content": "His lips are thick, suggesting a sensual nature, and one of his teeth is set crookedly, so that even when his mouth is closed, it is as though he were constantly nibbling on his underlip."                }
-              ]
-            },
-            "replacements": {
-              "tag": [
-                "I&#8217;ll just mention our new acquaintance.",                "I will make it worse yet."              ]
-            }
-          },
-          {
-            "tag": "I will make it worse yet.",            "content": "      It is very dull here for company. Really my only consolation is a certain new acquaintance. The kitchen girls talk of nothing but his looks. He has a striking face, not at all refined, but with piercing eyes that are almost black, and a great deal of animal vigor.    ",            "replacements": {
-              "tag": [
-                "Better sound more pathetic.",                "No, let him be jealous."              ]
-            }
-          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<br/><br/>Your obedient wife, Juliette  "          }
-        ],
-        "pageturn": {
-          "deniedmessage": "She considers. The text is not yet right.",          "content": "Before she can change her mind, she copies out the text."        }
-      },
-      {
-        "-id": "chapter2",        "-speaker": "alise",        "line": [
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "  <span class='date'>Paris, July 1788</span><br/><br/>  "          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "My dear Henri,"          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "<br/><br/>I think you were right to make a change to your household.",            "replacements": {
- "tag": "There's no reason to be unclear." }
-          },
-          {
-            "tag": "There's no reason to be unclear.",            "components": {
-              "line": [
-                {
- "content": "<br/><br/>I cannot congratulate you enough on your decision to send little Juliette into the country." },
-                {
-                  "content": "You must know how dear and sweet and affectionate I find your wife.",                  "replacements": {
-                    "tag": [
-                      "It's stomach turning. Like too many lilies in a vase.",                      "He might perceive some irony here."                    ]
-                  }
+                    "tag": "      直接说没有用。    ",
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<br/><br/>请带我回家。    ",
+                    "replacements": {
+                        "tag": [
+                            "我应该暗示得更委婉些。", "也许他会告诉我为什么我在这里。"
+                        ]
+                    },
+                    "removals": {
+                        "tag": "再问也没有用了。"
+                    }
                 },
                 {
-                  "content": "But her piety is more than a person can bear.",                  "replacements": {
- "tag": "Perhaps a few examples would illustrate the point." }
-                }
-              ]
-            }
-          },
-          {
-            "tag": "He might perceive some irony here.",            "content": "Her good nature does a credit to her convent upbringing."          },
-          {
-            "tag": "Perhaps a few examples would illustrate the point.",            "components": {
-              "line": [
-                {
- "content": "But her piety is more than a person can bear." },
-                {
- "content": "<br/><br/>Juliette is always taking me aside in quiet moments and asking if I think that my attire is as modest as it should be;" },
-                {
- "content": " whether I have submitted myself to the authority of the church;" },
-                {
-                  "content": " whether I am obedient to my husband, if you please!",                  "replacements": {
- "tag": "Heh. Poor François." }
-                }
-              ]
-            }
-          },
-          {
-            "tag": "It's stomach turning. Like too many lilies in a vase.",            "components": {
-              "line": [
-                {
-                  "content": "You must know how dear and sweet and affectionate I find your wife.",                  "replacements": {
- "tag": "He might perceive some irony here." }
+                    "tag": "也许他会告诉我为什么我在这里。",
+                    "content": "<br/><br/>我希望您能告诉我，如果我在某些方面冒犯了您，我做错了什么。如果您不说是什么错，我就无法弥补。    ",
+                    "replacements": {
+                        "tag": [
+                            "直接说没有用。", "也许我应该暗示得更委婉些。"
+                        ]
+                    },
+                    "removals": {
+                        "tag": "再问也没有用了。"
+                    }
                 },
                 {
- "content": "I have never known anyone so patient with nuns and servants, bores met at parties, and very young schoolgirls.<br/><br/>" }
-              ]
-            }
-          },
-          {
-            "tag": "Heh. Poor François.",            "components": {
-              "line": [
-                {
- "content": " whether I am obedient to my husband, if you please!" },
-                {
- "content": "I do not think François would understand what had happened if I did become obedient suddenly, poor man." },
-                {
-                  "content": "He requires conflict to keep the sap up. Without it he wilts.",                  "removals": {
- "tag": "Too vulgar, for a letter to one's own brother?" }
-                }
-              ]
-            }
-          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "It's much the wisest thing, if you want Aunt Josephine not to disinherit you, to keep her away from Juliette.",            "replacements": {
- "tag": "Oh, how blandly phrased!" }
-          },
-          {
-            "tag": "Oh, how blandly phrased!",            "components": {
-              "line": [
-                {
-                  "content": "<br/><br/>I am nearly sure that Aunt Josephine will disown you both if she has to spend another dinner in your wife's company.",                  "replacements": {
- "tag": "How vicious the old woman looked over the Bordeaux." }
+                    "tag": "我应该暗示得更委婉些。",
+                    "content": "<br/><br/>我想念您的陪伴。    ",
+                    "replacements": {
+                        "tag": [
+                            "也许他会告诉我为什么我在这里。", "直接说没有用。"
+                        ]
+                    },
+                    "removals": {
+                        "tag": "再问也没有用了。"
+                    }
                 },
                 {
-                  "content": "Keep her, keep her out of society, until the death of our aunt has made your fortune secure.",                  "replacements": {
- "tag": "Too cruel? One should offer a ray of hope." }
-                }
-              ]
-            }
-          },
-          {
-            "tag": "How vicious the old woman looked over the Bordeaux.",            "components": {
-              "line": [
-                {
- "content": "<br/><br/>Did you not see how Aunt Josephine stabbed Juliette with her eyes, when Juliette was so ill-advised as to slight the Bordeaux, and to say that it could be no comparison to the wine served at Cana?" },
-                {
- "content": "I am nearly sure the old woman will disown you both if she has to spend another dinner in your wife's company." }
-              ]
-            }
-          },
-          {
-            "tag": "Too cruel? One should offer a ray of hope.",            "components": {
-              "line": [
-                {
- "content": "Keep her, keep her out of society, until the death of our aunt has made your fortune secure." },
-                {
- "content": "It cannot be more than a year or two longer." }
-              ]
-            }
-          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "<br/><br/>Meanwhile, I believe I have discovered who is the father of the P&#8212; heir, for you know Lady P&#8212; is constantly rattling on at cards",            "removals": {
- "tag": "Best not to distract Henri from my advice." }
-          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<br/><br/>Your affectionate sister Alise"          }
-        ]
-      },
-      {
-        "-id": "chapter3",        "-speaker": "henri",        "line": [
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "  <span class='date'>Paris, July 1788</span>  "          },
-          {
-            "tag": "Make her stay.    ",            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "<br/><br/>1. Make certain she stays where she is.    ",            "replacements": {
-              "tag": [
-                "Promise she is missing nothing in Paris.",                "Simply command her to stay."              ]
-            }
-          },
-          {
-            "tag": "Simply command her to stay.    ",            "content": "<br/><br/>My dear Juliette, <br/><br/>I know you do not care for your present surroundings, but you will oblige me by staying where you are.    ",            "replacements": {
- "tag": "Promise she is missing nothing in Paris." }
-          },
-          {
-            "tag": "Promise she is missing nothing in Paris.    ",            "components": {
-              "line": [
-                {
-                  "tag": "Sympathize with her situation.        ",                  "content": "<br/><br/>My dear Juliette, <br/><br/>I know you are beside yourself with boredom, but I assure you, you are missing nothing in Paris.         "                },
-                {
-                  "tag": "Her friends are gone.",                  "content": "All our particular friends have gone into the country to escape the heat, and the night soil is pungent in the streets.        ",                  "replacements": {
- "tag": "The reference to night soil might offend her." }
+                    "tag": "这太笼统了，连一半都没说到。",
+                    "components": {
+                        "line": [{
+                                "content": "<br/><br/>每天都是晴天，但冷飕飕的，冰川上吹来刺骨的寒风。"
+                            },
+                            {
+                                "content": "我不确定我是否喜欢阿尔卑斯山，它让我觉得自己可能会从地球上侧翻下去。",
+                                "removals": {
+                                    "tag": "无法表达这种孤独感，因为他不觉得这个地方孤独。"
+                                }
+                            },
+                            {
+                                "content": "无法想象在这样的地方建一个井然有序的花园。"
+                            }
+                        ]
+                    }
                 },
                 {
-                  "tag": "   She may have whatever she likes in Grenoble.",                  "content": "<br/><br/>If you wish to indulge yourself with gloves, or otherwise enrich the merchants of Grenoble beyond what they deserve, I will not begrudge the expense.   ",                  "replacements": {
- "tag": "One could phrase the permission more generously." },
-                  "removals": {
- "tag": "She might object to being bribed, like a child with a boiled sweet." }
-                }
-              ]
-            }
-          },
-          {
-            "tag": "One could phrase the permission more generously.",            "content": "  If you grow lonely for shops and the pleasures of town, then indulge yourself as much as you like among the glove merchants of Grenoble, and send gifts to all of your friends.  ",            "removals": {
- "tag": "She might object to being bribed, like a child with a boiled sweet." }
-          },
-          {
-            "tag": "The reference to night soil might offend her.",            "components": {
-              "line": [
-                {
-                  "content": "Alise has brought me a vermeil rosebush that keeps the house scented like the gardens of Chantilly.      "                },
-                {
-                  "content": "Your friend the Countess L&#8212; admired the magic very much, and kept hinting that I should make her a present of it.       "                },
-                {
-                  "content": "When I would not, she sighed, and said that Paris was insupportable without such aids.      "                },
-                {
-                  "content": "She and the Count have gone out of town to escape the heat and smell, which is everywhere.      "                }
-              ]
-            }
-          },
-          {
-            "tag": "      Find out about the boy. Is it possible he's mine by Bernadette?    ",            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "<br/><br/>2. Find out about the boy. Is it possible he's mine by Bernadette?    ",            "replacements": {
- "tag": "Ask for more information about the boy." }
-          },
-          {
-            "tag": "Ask for more information about the boy.",            "components": {
-              "line": [
-                {
-                  "content": "<br/><br/>And you must tell me more about your acquaintance, and his shepherd charge!"                },
-                {
-                  "content": "I had not heard that there was such a young man in the village, and I find myself wondering which he could have been.",                  "replacements": {
- "tag": "Perhaps find out if he is blond like Bernadette." }
+                    "tag": "      我不该侮辱他最喜欢的村庄。    ",
+                    "components": {
+                        "line": [{
+                                "tag": "          至少我可以夸赞一下天气。        ",
+                                "content": "<br/><br/>天气非常好。        ",
+                                "replacements": {
+                                    "tag": "这太笼统了，连一半都没说到。"
+                                },
+                                "removals": {
+                                    "tag": "他在乎我是否舒适吗？"
+                                }
+                            },
+                            {
+                                "tag": "          我只提一下我们的新相识。        ",
+                                "content": "<br/><br/>这里并不像我担心的那样安静，因为我们有了一位新相识。",
+                                "replacements": {
+                                    "tag": [
+                                        "我应该只提一下那人是个修士。", "不，让他吃醋吧。"
+                                    ]
+                                }
+                            },
+                            {
+                                "tag": "暗示修士的丑闻。",
+                                "inclusion": {
+                                    "-initial": "no",
+                                    "-final": "no"
+                                },
+                                "content": "          他说他来这里是为了给一位贵族的儿子提供精神指导。          ",
+                                "replacements": {
+                                    "tag": "亨利会笑话这个的。"
+                                }
+                            }
+                        ]
+                    }
                 },
                 {
-                  "inclusion": {
- "-final": "no" },
-                  "content": "He must have inherited prodigious skill, if he has discovered how to use it on his own! Few legitimate noble sons now demonstrate so strong a manifestation of the gift.",                  "replacements": {
- "tag": "Perhaps to sound more detached..." }
-                }
-              ]
-            }
-          },
-          {
-            "tag": "Perhaps to sound more detached...",            "components": {
-              "line": [
-                {
-                  "content": "<br/><br/>If he truly learned his magic alone, with no one of his parents' class to guide him, he must have a considerable talent."                },
-                {
-                  "content": "You will not know this yourself, of course, but when one first learns to see the correspondences in the world, it is like seeing a sheet of letters one cannot read.",                  "replacements": {
- "tag": "Do not make her unhappy about her lack of magical ability." },
-                  "removals": {
- "tag": "Omit any comment on this topic at all. One never knows what might give offense." }
+                    "tag": "亨利会笑话这个的。  ",
+                    "components": {
+                        "line": [{
+                                "content": "他说他来这里是为了给一位贵族的儿子提供精神指导。  "
+                            },
+                            {
+                                "content": "<br/><br/>我听了大笑。我告诉他您对我的精神指导说过的话，以及它在修道院外可能有多大用处。  "
+                            },
+                            {
+                                "content": "但他说，不，这不是一个普通的贵族之子；这是一个私生子，只有他的魔法能将他与农民区分开来。  "
+                            },
+                            {
+                                "content": "<br/><br/>我认为引导这样一个在世上没有明确位置的年轻人需要相当大的智慧。  ",
+                                "removals": {
+                                    "tag": "这可能暗示对男孩贵族父亲的批评。"
+                                }
+                            }
+                        ]
+                    }
                 },
                 {
-                  "content": "He might as well have guessed how to write his name without any tutor."                },
-                {
-                  "inclusion": {
- "-final": "no" },
-                  "content": "Even without early training, he would be an asset to a political family; and he can have no alliances of his own.",                  "removals": {
- "tag": "Do not show obvious enthusiasm." }
-                }
-              ]
-            }
-          },
-          {
-            "tag": "Perhaps find out if he is blond like Bernadette.",            "components": {
-              "line": [
-                {
-                  "content": "I had not heard that there was such a young man in the village, and I find myself wondering which he was.  "                },
-                {
-                  "content": "Does he have very blond hair like thatching?  "                }
-              ]
-            }
-          },
-          {
-            "tag": "Do not make her unhappy about her lack of magical ability.",            "components": {
-              "line": [
-                {
-                  "content": "  You did not grow up with the Lavori, so you don't know how it is (and please do not take this as a criticism, dear girl: you would not be half so comfortable a companion if you had the talent).  ",                  "removals": {
- "tag": "Omit any comment on this topic at all. One never knows what might give offense." }
+                    "tag": "我应该只提一下那人是个修士。",
+                    "content": "<br/><br/>这里并不像我担心的那样安静，因为有了我们的新相识。我相信他是某种修士，虽然我们还没有正式介绍过。    ",
+                    "replacements": {
+                        "tag": [
+                            "不，让他吃醋吧。", "我只提一下我们的新相识。", "最好听起来更可怜些。"
+                        ]
+                    }
                 },
                 {
-                  "content": "When one first learns to see the correspondences in the world, it is like seeing a sheet of letters one cannot read.  "                }
-              ]
-            }
-          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "<br/><br/>3. Change the subject before closing.  ",            "replacements": {
-              "tag": [
-                "Conclude with something a little conciliatory.",                "Discourage further complaining."              ]
-            }
-          },
-          {
-            "tag": "Discourage further complaining.",            "components": {
-              "line": [
-                {
-                  "content": "<br/><br/>I know you do not think much of our current arrangement."                },
-                {
-                  "content": "Nonetheless, I must ask you to be brave and persevere, and not to tease me about a situation that must not be changed for the time being.",                  "replacements": {
- "tag": "That will make her ask how long \"the time being\" means." }
-                }
-              ]
-            }
-          },
-          {
-            "tag": "That will make her ask how long \"the time being\" means.",            "components": {
-              "line": [
-                {
-                  "content": "Nonetheless, I must ask you to be brave and persevere."                },
-                {
-                  "inclusion": {
- "-final": "no" },
-                  "content": "It was not my intention to lock you away.",                  "replacements": {
-                    "tag": [
-                      "Promise to visit her in the fall.",                      "In a couple of years it may be more suitable for her to live in Paris."                    ]
-                  }
-                }
-              ]
-            }
-          },
-          {
-            "tag": "Promise to visit her in the fall.",            "content": "It should be possible for me to visit you there in the fall.",            "removals": {
- "tag": "If I promise this, she will be very vexed at me if it proves inconvenient after all." }
-          },
-          {
-            "tag": "In a couple of years it may be more suitable for her to live in Paris.",            "content": "In a year or two, when my position is more secure and the work I am presently engaged in has been completed, I see no reason why you should not come back to Paris.",            "replacements": {
- "tag": "Maybe it would be wiser to put no specific period." }
-          },
-          {
-            "tag": "Maybe it would be wiser to put no specific period.",            "content": "When my position is more secure and the work I am presently engaged in has been completed, I see no reason why you should not come back to Paris."          },
-          {
-            "inclusion": {
- "-final": "no" },
-            "tag": "Conclude with something a little conciliatory.",            "content": "<br/><br/>3. Conclude with something a little conciliatory.  ",            "replacements": {
-              "tag": [
-                "Be a little sentimental about the Alps.",                "Ask her forgiveness for not bringing her home.",                "Compliment her reliability and virtue."              ]
-            }
-          },
-          {
-            "tag": "Compliment her reliability and virtue.",            "content": "<br/><br/>I know you will remain as I have asked you: you have always been the most faithful of women.  "          },
-          {
-            "tag": "Be a little sentimental about the Alps.",            "components": {
-              "line": [
-                {
-                  "content": "<br/><br/>Take heart: you are in the place that I love above all others.     "                },
-                {
-                  "content": "You have the breeze off the glaciers, and the terraced green hills, and the cattle bells ringing at dusk.    "                },
-                {
-                  "content": "Eat some of small bilberries and think of me, trapped here, surrounded by streets and streets of the scarcely-washed.    "                }
-              ]
-            },
-            "replacements": {
- "tag": "Ask her forgiveness for not bringing her home." }
-          },
-          {
-            "tag": "Ask her forgiveness for not bringing her home.",            "components": {
-              "line": [
-                {
-                  "content": "<br/><br/>Forgive me that it is not possible for me to ask you home. My work demands my full attention.",                  "replacements": {
- "tag": "No, why ask forgiveness? She is a wife, not a pettish mistress." }
+                    "tag": "最好听起来更可怜些。",
+                    "content": "      这里的社交很沉闷。我唯一的安慰就是我们与某位修士的新相识。我们还没有正式介绍过，所以我不确定他属于哪个修会。    ",
+                    "replacements": {
+                        "tag": "我应该只提一下那人是个修士。"
+                    }
                 },
                 {
-                  "content": "I am very much occcupied with political matters. I am afraid that if you were home, I would not be able to look after you as you require.",                  "replacements": {
- "tag": "Take away that word &#8220;require&#8221;, which is not very kind." }
-                }
-              ]
-            }
-          },
-          {
-            "tag": "No, why ask forgiveness? She is a wife, not a mistress.",            "content": "<br/><br/>I do not ask you home because my work demands my full attention.  ",            "replacements": {
- "tag": "Still, it could be phrased a little more gently." }
-          },
-          {
-            "tag": "Still, it could be phrased a little more gently.",            "content": "<br/><br/>I regret I must give my full attention to my work.  ",            "replacements": {
- "tag": "No, why ask forgiveness? She is a wife, not a pettish mistress." }
-          },
-          {
-            "tag": "Take away that word &#8220;require&#8221;, which is not very kind.",            "content": "I am very much occcupied with political matters. I am afraid that if you were home, I would not be able to look after you as you deserve.",            "replacements": {
- "tag": "Be a little sentimental about the Alps." }
-          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<br/><br/>Henri  "          }
-        ],
-        "pageturn": {
-          "deniedmessage": "That may not be sufficient.",          "content": "He gives the page to his servant to copy over."        }
-      },
-      {
-        "-id": "chapter4",        "-speaker": "juliette",        "line": [
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "  <span class='date'>Dauphin&#233;, July 1788</span><br/><br/>  "          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "  Dear Henri,<br/><br/>  "          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "tag": "      Tell the story of the friar's visit.    ",            "content": "We talked together for a long time this morning, my new acquaintance the friar and I.<br/><br/>    ",            "replacements": {
- "tag": "Mention that he will not hear my confession?" }
-          },
-          {
-            "tag": "      Mention that he will not hear my confession?    ",            "content": "      We talked together for a long time this morning, my new acquaintance the friar and I. Though he does not always act like a friar. He will not hear my confession and says it would not be proper.<br/><br/>    "          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "tag": "      Describe how we met the nobleman's bastard.    ",            "content": "      He took me to meet the nobleman&#8217;s bastard. The boy is a fair-haired young man, perhaps seventeen years old, ox-strong and quiet.<br/><br/>    ",            "replacements": {
- "tag": "The boy might be Henri&#8217;s son. Might as well sound him out." }
-          },
-          {
-            "tag": "      The boy might be Henri&#8217;s son. Might as well sound him out.    ",            "components": {
-              "line": [
-                {
-                  "tag": "Mention meeting the bastard.",                  "content": "     He took me to meet the nobleman&#8217;s bastard. The boy is a fair-haired young man, perhaps seventeen years old, ox-strong and quiet.         "                },
-                {
-                  "tag": "Sketch his personality.",                  "content": "    Whether he is stupid or thoughtful I could not tell.         "                },
-                {
-                  "tag": "Detail the business with the boy&#8217;s mother.",                  "content": "     His mother kept in the background: a tall woman named Bernadette.         "                },
-                {
-                  "tag": "Describe the mother&#8217;s reactions.",                  "content": "    She cut her eyes away when she saw me looking at her.         ",                  "replacements": {
-                    "tag": [
-                      "That makes her sound guilty. I must put it more naively.",                      "Perhaps I should mention that she has lost her beauty."                    ]
-                  }
-                }
-              ]
-            }
-          },
-          {
-            "tag": "  That makes her sound guilty. I must put it more naively.  ",            "components": {
-              "line": [
-                {
-                  "content": "  She did not look me in the eye.   "                },
-                {
-                  "content": "  Perhaps she was shy.  "                }
-              ]
-            }
-          },
-          {
-            "tag": "  Perhaps I should mention that she has lost her beauty.  ",            "components": {
-              "line": [
-                {
-                  "content": "  From her bones she was once a beauty, but the sun and wind have made her skin raw and her hair brittle.   "                },
-                {
-                  "content": "  She has rheumy eyes.  "                }
-              ]
-            }
-          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "tag": "      Mention the bastard&#8217;s field work.    ",            "content": "      We found the young man out in the sheepfold, using the Lavori to repair a fence.    "          },
-          {
-            "tag": "Describe a reaction to the scene.",            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "Scandal! To find the magic of dukes and princes, out in some field covered with dung!",            "replacements": {
-              "tag": [
-                "Perhaps even Henri will think that reaction excessive.",                "Mention what the friar said about the scene."              ]
-            }
-          },
-          {
-            "tag": "Perhaps even Henri will think that reaction excessive.",            "content": "I was a little shocked to see this method, which the great architects used to erect the cathedral at Beauvais, employed to hold in sheep.",            "replacements": {
- "tag": "Perhaps that sounds as though I am trying to tell him the place of magic." }
-          },
-          {
-            "tag": "Perhaps that sounds as though I am trying to tell him the place of magic.",            "content": "I was a little shocked to see the birthright of counts and princes employed to hold in sheep. "          },
-          {
-            "tag": "      Mention what the friar said about the scene.    ",            "components": {
-              "line": [
-                {
- "content": "<br/><br/>I said something of my shock aside to the friar. At once his thick lips curled back and the brow lowered so that he looked like a gargoyle." },
-                {
- "content": "&#8220;You do not approve?&#8221; he asked." },
-                {
-                  "content": "His anger gave me a thrill as though I had picked up a live snake.",                  "replacements": {
- "tag": "Perhaps the snake analogy is a bit lurid." }
+                    "tag": "不，让他吃醋吧。",
+                    "components": {
+                        "line": [{
+                                "content": "<br/><br/>这里并不像我担心的那样安静，因为有了我们的新相识。"
+                            },
+                            {
+                                "content": "厨房的女佣们只谈论他的长相。他有一张引人注目的脸，一点也不精致，但有一双近乎漆黑的锐利眼睛，以及大量的野性活力。"
+                            },
+                            {
+                                "content": "他的嘴唇很厚，暗示着感性的本质，他的一颗牙齿长歪了，即使嘴巴闭着，也好像他一直在咬着下唇。"
+                            }
+                        ]
+                    },
+                    "replacements": {
+                        "tag": [
+                            "我只提一下我们的新相识。", "我要让情况更糟。"
+                        ]
+                    }
                 },
                 {
-                  "tag": "Review your defense.",                  "content": "<br/><br/>I told him what I was often told by the sisters in convent: that the Lavori magic was given to the leaders of men, by God.",                  "replacements": {
- "tag": "There was more to the conversation: might as well tell it all." }
-                }
-              ]
-            }
-          },
-          {
-            "tag": "There was more to the conversation: might as well tell it all.",            "components": {
-              "line": [
-                {
-                  "content": "<br/><br/>I told him what I was often told by the sisters in convent: that the Lavori magic was given to the leaders of men, by God.        "                },
-                {
- "content": "Then he asked whether I thought magic-users are like angels, or whether they are susceptible to doing wrong." },
-                {
- "content": "Naturally, I said that they share in Adam&#8217;s fall." },
-                {
-                  "inclusion": {
- "-final": "no" },
-                  "content": "Consider the case of that English Earl who turned his magic to cheating at cards.        ",                  "removals": {
- "tag": "Excessive moralizing never pleases Henri." }
-                }
-              ]
-            }
-          },
-          {
-            "tag": "Perhaps the snake analogy is a bit lurid.",            "content": "I chilled with fear."          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "tag": "      Tell what the friar said.    ",            "content": "<br/><br/>The friar said that he himself had suggested to the boy this way of using his natural gifts.    ",            "replacements": {
- "tag": "Mention how the friar condemned the boy's father." }
-          },
-          {
-            "tag": "Mention how the friar condemned the boy's father.",            "components": {
-              "line": [
-                {
-                  "content": "<br/><br/>The friar said that he himself had suggested to the boy this way of using his natural gifts.        "                },
-                {
-                  "content": "        &#8220;His father does not choose to own him and make him a magician,&#8221; he said, looking at me sidelong under those bush-brows.         "                },
-                {
-                  "content": "        &#8220;But at least he can be a help to the peasants who are his only society.&#8221;        ",                  "replacements": {
- "tag": "Offer a speculation about the friar." }
-                }
-              ]
-            }
-          },
-          {
-            "tag": "Offer a speculation about the friar.",            "content": "From his way of speaking, I sometimes wonder whether the friar himself has some left-handed connection to the nobility, and is angry at a father who did not acknowledge him.",            "removals": {
- "tag": "Perhaps that is an unseemly thought for a lady." }
-          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<br/><br/>All in all, I am not sure the friar is a right person for me to know."          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "He has ideas that might even be heretical.",            "replacements": {
- "tag": "Henri will not be interested in heresies. Perhaps phrase it as politics." }
-          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "I pray you will bring me home."          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "To speak frankly, I distrust myself with him.",            "removals": {
- "tag": "Being frank with one&#8217;s husband is not always a good idea." }
-          },
-          {
-            "tag": "Henri will not be interested in heresies. Perhaps phrase it as politics.",            "content": "      He has ideas that might even be revolutionary.    "          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<br/><br/>Your obedient wife, Juliette  "          }
-        ],
-        "pageturn": {
-          "deniedmessage": "Is the tone right? Does it say enough, without giving offense?",          "content": "Yes, that will do."        }
-      },
-      {
-        "-id": "chapter5",        "-speaker": "juliette",        "line": [
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "  <span class='date'>Dauphin&#233;, July 1788</span><br/><br/>  "          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "Mother Catherine-Agnes,"          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<br/><br/>Though I have left the convent, I must turn to you again for guidance, as I did when I was young."          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "Please tell me: am I wrong to be angry that my husband has sent me away to the country?",            "replacements": {
-              "tag": [
-                "Angry isn't even quite the right word. Sad?",                "Confused?",                "Betrayed?"              ]
-            }
-          },
-          {
-            "tag": "Angry isn't even quite the right word. Sad?",            "content": "Please tell me: am I wrong to be sad that my husband has sent me away to the country?",            "replacements": {
- "tag": "It is not quite as though one loved him &#8212; yet." }
-          },
-          {
-            "tag": "It is not quite as though one loved him &#8212; yet.",            "components": {
-              "line": [
-                {
-                  "content": "Please tell me: am I wrong to be sad that my husband has sent me away to the country?"                },
-                {
-                  "content": "It is too much to say that my heart is broken. Rather that I might have come to feel a great devotion to him, had I been given a chance; but he keeps me too much at a distance."                }
-              ]
-            }
-          },
-          {
-            "tag": "Confused?",            "content": "I am confused, at a loss, because my husband has sent me to the country.",            "replacements": {
- "tag": "It is not as though I have done anything wrong." }
-          },
-          {
-            "tag": "It is not as though I have done anything wrong.",            "components": {
-              "line": [
-                {
-                  "content": "I am confused, at a loss, because my husband has sent me to the country."                },
-                {
-                  "content": "I have been a good wife; have never shirked or showed displeasure in my marital duty; have behaved with propriety to all his family."                }
-              ]
-            }
-          },
-          {
-            "tag": "Betrayed?",            "content": "Please tell me: am I wrong to feel betrayed that my husband has sent me away to the country?",            "replacements": {
-              "tag": [
-                "He chooses his family over me.",                "Is it possible he has a lover?"              ]
-            }
-          },
-          {
-            "tag": "He chooses his family over me.",            "components": {
-              "line": [
-                {
- "content": "Please tell me: am I wrong to feel betrayed that my husband has sent me away to the country?" },
-                {
- "content": "He takes the side of his sister in looking down on me. She constantly shows her contempt for my simplicity, and it is never my side that Henri takes." }
-              ]
-            }
-          },
-          {
-            "tag": "Is it possible he has a lover?",            "components": {
-              "line": [
-                {
- "content": "Please tell me: am I wrong to feel betrayed that my husband has sent me away to the country?" },
-                {
- "content": "I would not have imagined it was possible so quickly after our marriage, but perhaps he has already determined to seek some other companionship. I have seen no sign of it, but perhaps I am so naive that I would not know; who can guess what he does, so far away?" }
-              ]
-            }
-          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<br/><br/>I write to my husband often, but he responds impatiently.  ",            "replacements": {
- "tag": "I could explain better." },
-            "removals": {
- "tag": "Then again, we are supposed to consider our own wrongdoings, not those of others." }
-          },
-          {
-            "tag": "I could explain better.",            "components": {
-              "line": [
-                {
- "content": "<br/><br/>I write to my husband often, but he responds impatiently." },
-                {
-                  "content": "He chides me about the waste of linking paper, and asks me what I will do if there is a matter of urgency and all the pages are used up."                },
-                {
-                  "content": "I have told him, then, to send me a fresh supply, but he only tells me to be more careful. ",                  "removals": {
- "tag": "I suppose that detail will not matter." }
-                }
-              ]
-            }
-          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "components": {
-              "line": [
-                {
-                  "content": "There is a friar in these parts who has been my spiritual counselor, but I am not sure of his advice."                },
-                {
-                  "content": "He reminds me of my duties of faithfulness and honor, but he also frightens me a little. ",                  "replacements": {
- "tag": "I will have to be more specific." }
-                }
-              ]
-            }
-          },
-          {
-            "tag": "I will have to be more specific.",            "components": {
-              "line": [
-                {
-                  "content": "<br/><br/>There is a friar in these parts who has been my spiritual counselor, but I am not sure of his advice."                },
-                {
-                  "content": "He preaches an austere path, turning towards God all that love that my husband will not receive. "                },
-                {
-                  "content": "And when he speaks about this, there is a holy burning light in his eyes, and he clasps my hands in his; and I feel the strength of the spirit flow into me and know that I am capable of anything.",                  "removals": {
- "tag": "This is true, but sounds foolish." }
+                    "tag": "我要让情况更糟。",
+                    "content": "      这里的社交很沉闷。我唯一的安慰就是某位新相识。厨房的女佣们只谈论他的长相。他有一张引人注目的脸，一点也不精致，但有一双近乎漆黑的锐利眼睛，以及大量的野性活力。    ",
+                    "replacements": {
+                        "tag": [
+                            "最好听起来更可怜些。", "不，让他吃醋吧。"
+                        ]
+                    }
                 },
                 {
-                  "content": "But when he is gone, my despair is so much blacker, for I have seen what true virtue must be, and how far I am away from it. "                },
-                {
-                  "content": "<br/><br/>I am a little afraid of the friar too."                },
-                {
-                  "content": "His zealous passion for good makes him angry against the magic-using ranks; he says that they have not been wise with their gift, and that they betray the poor.",                  "replacements": {
- "tag": "If I don't have the courage to ask what I really mean, what answer can I get?" }
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<br/><br/>您顺从的妻子，朱丽叶  "
                 }
-              ]
+            ],
+            "pageturn": {
+                "deniedmessage": "她在考虑。文字还不太对。",
+                "content": "在她改变主意之前，她抄写了这段文字。"
             }
-          },
-          {
-            "tag": "If I don't have the courage to ask what I really mean, what answer can I get?",            "content": "For he is so alive and so full of spirit, both the animal spirit and the divine, that I am drawn to him as young girls sometimes are wrongly drawn towards their confessors.",            "replacements": {
- "tag": "Oh, but the politics are troubling as well." },
-            "removals": {
- "tag": "It is too much to explain this part." }
-          },
-          {
-            "tag": "Oh, but the politics are troubling as well.",            "components": {
-              "line": [
-                {
-                  "content": "He has an energy and a rage against the magic-using classes, saying they have not been wise with their gift."                },
-                {
-                  "content": "I find myself drawn to him as young girls are sometimes wrongly drawn towards their confessors."                },
-                {
-                  "content": "I am not sure whether following him draws me back toward my husband or away from him."                },
-                {
-                  "content": "So tell me, if you can, whether I am right to feel so."                }
-              ]
-            }
-          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<br/><br/>Juliette"          }
-        ]
-      },
-      {
-        "-id": "chapter6",        "-speaker": "henri",        "line": [
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "  <span class='date'>Paris, August 1788</span><br/><br/>  "          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "My dear little wife,"          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "<br/><br/> 1. Tell her not to be bothered by the friar.    ",            "replacements": {
-              "tag": [
-                "Remind her of her status.",                "Encourage her to be sensible."              ]
-            }
-          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "<br/><br/>2. Ask more about the boy.    ",            "replacements": {
- "tag": "Make her a list of points to find out about." }
-          },
-          {
-            "tag": "Remind her of her status.",            "components": {
-              "line": [
-                {
- "content": "<br/><br/>If this friar annoys you, put him off!" },
-                {
-                  "content": "Remember your position: you're not a child in the convent any more, but a great lady.        "                },
-                {
-                  "content": "You do not need to be annoyed by someone like him if you do not choose to be.        ",                  "replacements": {
- "tag": "Phrase the matter with more reverence." }
-                }
-              ]
-            }
-          },
-          {
-            "tag": "Phrase the matter with more reverence.",            "content": "He may intend well but still know too little of your world to advise you wisely."          },
-          {
-            "tag": "Encourage her to be sensible.",            "components": {
-              "line": [
-                {
- "content": "I trust to your judgment, Juliette." },
-                {
- "content": "You will not be distracted from sensible and righteous thoughts by trivial arguments." },
-                {
- "content": "You are too good." }
-              ]
-            }
-          },
-          {
-            "tag": "Make her a list of points to find out about.",            "components": {
-              "line": [
-                {
-                  "content": "<br/><br/>I do wonder about the boy you have written about.        "                },
-                {
-                  "content": "It is surprising his family have not acknowledged him somehow.        "                },
-                {
-                  "content": "Even if born out of wedlock, a strong magician would be welcome in most families.        "                },
-                {
-                  "inclusion": {
- "-final": "no" },
-                  "content": "He might be legitimized, if his father were known.        ",                  "replacements": {
- "tag": "Make that sound more like speculation." }
+        },
+        {
+            "-id": "chapter2",
+            "-speaker": "alise",
+            "line": [{
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "  <span class='date'>巴黎，1788年7月</span><br/><br/>  "
                 },
                 {
-                  "content": "Has he said anything &#8212; has his mother said &#8212; why his birth was not reported to his father?        "                }
-              ]
-            }
-          },
-          {
-            "tag": "Make that sound more like speculation.",            "components": {
-              "line": [
-                {
-                  "content": "He might be legitimized, if his father were known.  "                },
-                {
-                  "content": "There are too few great powers among the aristocracy now.  "                }
-              ]
-            }
-          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<br/><br/>Henri"          }
-        ],
-        "pageturn": {
-          "deniedmessage": "It is so difficult to handle her at this distance.",          "content": "Yes, that will do."        }
-      },
-      {
-        "-id": "chapter7",        "-speaker": "juliette",        "line": [
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "  <span class='date'>Dauphin&#233;, August 1788</span><br/><br/>  "          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "Henri,"          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "<br/><br/>Do you think I am so stupid?",            "removals": {
- "tag": "Mother at the convent always said not to ask a question if you do not want the answer." }
-          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "<br/><br/>This boy who interests you so much must be your son. I guessed it from the beginning.",            "replacements": {
- "tag": "Put it more tactfully." }
-          },
-          {
-            "tag": "Put it more tactfully.",            "content": "<br/><br/>You are so delicate, but there is no need; I have guessed this boy must be your son."          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "What other noble of magic-using rank ever visits this area?",            "removals": {
- "tag": "This invites excuses and lies. Better not even to argue it." }
-          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<br/><br/>And now you write to me about legitimizing the boy."          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "I suppose I should not be surprised. There is no risk of my giving you an heir while we live so many miles separated.",            "replacements": {
- "tag": "Calm, calm." }
-          },
-          {
-            "tag": "Calm, calm.",            "components": {
-              "line": [
-                {
-                  "content": "It is sensible.",                  "replacements": {
- "tag": "Sensible! Town will talk of nothing else I will be humiliated. But it would delight his family." }
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "亲爱的亨利，"
                 },
                 {
-                  "content": "Your family would welcome a son of known ability.",                  "replacements": {
- "tag": "More than they have welcomed a faithful and well-bred wife, no doubt." }
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "<br/><br/>我认为您对家庭做出改变是对的。",
+                    "replacements": {
+                        "tag": "没有理由说得不清楚。"
+                    }
                 },
                 {
-                  "content": "His manners are rough, but I dare say he could be trained.",                  "replacements": {
-                    "tag": [
-                      "Henri deserves a more exact description of what to expect.",                      "Bah, let him be misled!"                    ]
-                  }
+                    "tag": "没有理由说得不清楚。",
+                    "components": {
+                        "line": [{
+                                "content": "<br/><br/>我对您把小朱丽叶送到乡下的决定赞不绝口。"
+                            },
+                            {
+                                "content": "您一定知道我觉得您的妻子是多么可爱、甜美和深情。",
+                                "replacements": {
+                                    "tag": [
+                                        "真让人反胃。就像花瓶里插了太多百合花。", "他可能会察觉到一些讽刺意味。"
+                                    ]
+                                }
+                            },
+                            {
+                                "content": "但她的虔诚让人难以忍受。",
+                                "replacements": {
+                                    "tag": "也许举几个例子可以说明问题。"
+                                }
+                            }
+                        ]
+                    }
                 },
                 {
-                  "inclusion": {
- "-final": "no" },
-                  "content": "After all, you've corrected so many of my little ways.",                  "replacements": {
- "tag": "No, he will label that impertinent." }
-                }
-              ]
-            }
-          },
-          {
-            "tag": "Bah, let him be misled!",            "content": "Any roughness in his manner could be corrected, with patience."          },
-          {
-            "tag": "Henri deserves a more exact description of what to expect.",            "components": {
-              "line": [
-                {
- "content": "<br/><br/>To introduce him to society will be a delicate task." },
-                {
-                  "content": "The boy has rough manners, can barely read, and knows nothing beyond these mountains.",                  "replacement": {
- "tag": "That sounds like Alise." }
+                    "tag": "他可能会察觉到一些讽刺意味。",
+                    "content": "她的善良本性为她在修道院的教养增光添彩。"
                 },
                 {
-                  "inclusion": {
- "-final": "no" },
-                  "content": "With a few years of concentrated study, he might be able to pass for one of the lower servants.",                  "removals": {
- "tag": "No, no, unworthy. It is true, but not the boy's fault; and it sounds spiteful." }
+                    "tag": "也许举几个例子可以说明问题。",
+                    "components": {
+                        "line": [{
+                                "content": "但她的虔诚让人难以忍受。"
+                            },
+                            {
+                                "content": "<br/><br/>朱丽叶总是在安静的时刻把我拉到一边，问我是否认为我的穿着足够端庄；"
+                            },
+                            {
+                                "content": " 我是否服从教会的权威；"
+                            },
+                            {
+                                "content": " 我是否听从丈夫的话，请问！",
+                                "replacements": {
+                                    "tag": "呵。可怜的弗朗索瓦。"
+                                }
+                            }
+                        ]
+                    }
                 },
                 {
-                  "content": "Your sister Alise might be the best person to recommend how he can be polished for town life."                },
-                {
-                  "content": "She has so nice a judgment of what might disgust Parisian sensibilities.",                  "replacements": {
- "tag": "And so little conscience, but she can hardly seduce her own nephew." }
-                }
-              ]
-            }
-          },
-          {
-            "tag": "That sounds like Alise.",            "content": "The boy has rough manners and has had limited scope to improve himself, but I know nothing against his character or his courage.",            "replacement": {
- "tag": "Am I still seeing him through the eyes of man rather than God?" }
-          },
-          {
-            "tag": "Am I still seeing him through the eyes of man rather than God?",            "content": "It may be that he will need some training to accustom himself to our society. But I know nothing against his character or his courage. He has been nothing but generous with the abilities he inherited, and shows much kindness to other villagers, when he might have taken the chance to lord over them.<br/><br/>"          },
-          {
-            "tag": "And so little conscience, but she can hardly seduce her own nephew.",            "content": "She has so nice a judgment of what might disgust Parisian sensibilities, and she would leaven the course of study, tutoring, and spiritual guidance that the young man will need to undergo."          },
-          {
-            "tag": "Sensible! Town will talk of nothing else I will be humiliated. But it would delight his family.",            "content": "It is very sensible and must delight everyone we know."          },
-          {
-            "tag": "More than they have welcomed a faithful and well-bred wife, no doubt.",            "content": "Your family would welcome no one more than a son of proven ability."          },
-          {
-            "tag": "No, he will label that impertinent.",            "content": "Of course I will do what I can to ease his entry into your house.",            "removals": {
- "tag": "He will assume this anyhow." }
-          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<br/><br/>Your obedient wife, Juliette",            "replacements": {
- "tag": "Obedient, oh yes, like a lap-dog. Does he deserve this extra reassurance?" }
-          },
-          {
-            "tag": "Obedient, oh yes, like a lap-dog. Does he deserve this extra reassurance?",            "content": "<br/><br/>Your wife, Juliette"          }
-        ],
-        "pageturn": {
-          "deniedmessage": "No, it still sounds too angry.",          "content": "Yes, that will do."        }
-      },
-      {
-        "-id": "chapter8",        "-speaker": "henri",        "line": [
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "  <span class='date'>Paris, August 1788</span><br/><br/>  "          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "Juliette,"          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "<br/><br/>1. Keep her from doing anything with the boy.",            "replacements": {
-              "tag": [
-                "Be as gentle as possible.",                "Be as clear as possible."              ]
-            }
-          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "<br/><br/>2. Keep her from hinting anything to boy's keeper.",            "replacements": {
-              "tag": [
-                "Be tactful.",                "Be firm."              ]
-            }
-          },
-          {
-            "tag": "Be as clear as possible.",            "components": {
-              "line": [
-                {
- "content": "<br/><br/>The matter is delicate." },
-                {
- "content": "You must not give any hint to the boy or his mother of any of this." },
-                {
-                  "inclusion": {
- "-final": "no" },
-                  "content": "I will send someone I can trust to watch the boy and determine what we should do with him.",                  "replacements": {
- "tag": "That suggests one does not trust Juliette." }
-                }
-              ]
-            }
-          },
-          {
-            "tag": "That suggests one does not trust Juliette.",            "components": {
-              "line": [
-                {
-                  "content": "I will send someone who knows more of the Lavori to watch the boy and help us determine the extent of his powers."                },
-                {
-                  "content": "Until such a person arrives, you must be my right hand."                }
-              ]
-            }
-          },
-          {
-            "tag": "Be as gentle as possible.",            "components": {
-              "line": [
-                {
- "content": "<br/><br/>Your feelings do you credit." },
-                {
- "content": "Few women would regard the matter with so much equanimity." },
-                {
- "content": "But you must do nothing. The matter is delicate." },
-                {
-                  "inclusion": {
- "-final": "no" },
-                  "content": "I will send someone I can trust to watch the boy and determine what we should do with him.",                  "replacements": {
- "tag": "That suggests one does not trust Juliette." }
-                }
-              ]
-            }
-          },
-          {
-            "tag": "Be tactful.",            "components": {
-              "line": [
-                {
- "content": "<br/><br/>I know it may be difficult to maintain to the friar that nothing has changed, but I rely on your discretion." },
-                {
- "content": "The fewer hints he receives, the better." }
-              ]
-            }
-          },
-          {
-            "tag": "Be firm.",            "components": {
-              "line": [
-                {
- "content": "<br/><br/>In the meantime, avoid saying anything too much to the friar, but do not cut off the acquaintance entirely; I do not want him frightened." },
-                {
-                  "content": "Whatever I choose to do, it will be without the meddling of the church.",                  "removals": {
- "tag": "Too blunt, perhaps." }
-                }
-              ]
-            }
-          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<br/><br/>Henri."          }
-        ],
-        "pageturn": {
-          "deniedmessage": "It won't do the job yet. It must be completely clear.",          "content": "Yes, that will do."        }
-      },
-      {
-        "-id": "chapter9",        "-speaker": "juliette",        "line": [
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "  <span class='date'>Dauphin&#233;, August 1788</span><br/><br/>  "          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "Henri,"          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "<br/><br/>I have done what you may think wrong.",            "replacements": {
- "tag": "He won't understand why." },
-            "removals": {
- "tag": "But after all he is not my confessor." }
-          },
-          {
-            "tag": "He won't understand why.",            "components": {
-              "line": [
-                {
- "content": "<br/><br/>I have done what you may think wrong." },
-                {
-                  "content": "But I am afraid, for myself and for you. ",                  "removals": {
- "tag": "I can't explain the fear; so it may be better not to mention it." }
+                    "tag": "真让人反胃。就像花瓶里插了太多百合花。",
+                    "components": {
+                        "line": [{
+                                "content": "您一定知道我觉得您的妻子是多么可爱、甜美和深情。",
+                                "replacements": {
+                                    "tag": "他可能会察觉到一些讽刺意味。"
+                                }
+                            },
+                            {
+                                "content": "我从未见过有人对修女和仆人、派对上遇到的无聊之人以及非常年轻的女学生如此有耐心。<br/><br/>"
+                            }
+                        ]
+                    }
                 },
                 {
- "content": "Therefore you must tell me whether I have sinned, and I will treat your judgment as my guide." }
-              ]
-            }
-          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "<br/><br/>I went to visit the friar, as I do on most days.",            "replacements": {
-              "tag": [
-                "On nearly all days, but perhaps it is better not to mention that.",                "Perhaps a small fabrication would be allowable."              ]
-            }
-          },
-          {
-            "tag": "On nearly all days, but perhaps it is better not to mention that.",            "content": "<br/><br/>I went to visit the friar."          },
-          {
-            "tag": "Perhaps a small fabrication would be allowable.",            "content": "<br/><br/>I had set out for the friar to bring him a meal."          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "When I approached his cottage, he was instructing Bernadette's son to perform some magic on a page of writing.",            "replacements": {
-              "tag": [
-                "This doesn't convey the friar's urgency.",              ]
-            }
-          },
-          {
-            "content": "When I approached his cottage, he had your son at work at a magic task, transforming a page of writing into a mysterious gibberish."          },
-          {
-            "tag": "This doesn't convey the friar's urgency.",            "components": {
-              "line": [
-                {
- "content": "When I approached his cottage, he was instructing Bernadette's son to perform some magic on a page of writing." },
-                {
- "content": "The boy protested at how boring it was." },
-                {
- "content": "The friar, however, insisted it must be done, without anger, but in such terms that the boy would have had to be very strong-willed to refuse." }
-              ]
-            }
-          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "The friar pushed one copy into the boy's hand and sent him to deliver it as a letter &#8212; they had decided on the recipient ahead of time.",            "replacements": {
-              "tag": [
-                "Could it be a love letter? Is the friar dallying somewhere?",                "Best just to say I could not hear who was the recipient."              ]
-            }
-          },
-          {
-            "tag": "Could it be a love letter? Is the friar dallying somewhere?",            "components": {
-              "line": [
-                {
- "content": "The friar pushed one copy into the boy's hand and sent him to deliver it &#8212; they had decided on the recipient ahead of time." },
-                {
-                  "inclusion": {
- "-final": "no" },
-                  "content": "Who besides noblewomen make use of magical writing? The friar must have a lover somewhere.",                  "removals": {
- "tag": "This is jealousy speaking." }
+                    "tag": "呵。可怜的弗朗索瓦。",
+                    "components": {
+                        "line": [{
+                                "content": " 我是否听从丈夫的话，请问！"
+                            },
+                            {
+                                "content": "我不认为弗朗索瓦会理解如果我突然变得顺从会发生什么，可怜的人。"
+                            },
+                            {
+                                "content": "他需要冲突来保持活力。没有冲突他就会萎靡不振。",
+                                "removals": {
+                                    "tag": "对于写给自己兄弟的信来说太粗俗了？"
+                                }
+                            }
+                        ]
+                    }
                 },
                 {
- "content": "I would imagine a conspiracy, but he does not seem the kind to conspire with lords and counts." }
-              ]
-            }
-          },
-          {
-            "tag": "Best just to say I could not hear who was the recipient.",            "content": "The friar pushed one copy into the boy's hand and sent him to deliver it &#8212; they had decided on the recipient ahead of time, but I could not hear who it might be."          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<br/><br/>The other copy the friar thrust away into a drawer."          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<br/><br/>And so, Henri, we come to my misdeed. "          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "When the friar was distracted, I learned by heart the content of the page.",            "replacements": {
- "tag": "True, but adding more detail will make it sound more truthful." }
-          },
-          {
-            "tag": "True, but adding more detail will make it sound more truthful.",            "components": {
-              "line": [
-                {
-                  "inclusion": {
- "-final": "no" },
-                  "content": "The friar appeared very calm after this was done, and engaged me in theological conversation.",                  "removals": {
- "tag": "Mostly it was theology. But Henri might ask what he said." }
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "如果您不想让约瑟芬姨妈剥夺您的继承权，最明智的做法就是让她远离朱丽叶。",
+                    "replacements": {
+                        "tag": "哦，说得多么平淡！"
+                    }
                 },
                 {
- "content": "After a little while, I said that I felt faint, and begged the friar to fetch a servant to see me home." },
-                {
- "content": "So he went, and I took out the page, and learned its nonsense by heart." }
-              ]
-            }
-          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "Perhaps you will not be able to make any meaning out of it, but I have written the message down for you to read."          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<br/><br/>Now tell me, Henri, whether I have betrayed a trust, whether I was wrong to act; and I will make my penance according to your guidance.",            "removals": {
- "tag": "Too groveling? But I must know what the friar said." }
-          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<br/><br/>Your obedient wife, Juliette"          }
-        ],
-        "pageturn": {
-          "deniedmessage": "It won't do the job yet. It must be completely clear.",          "content": "Yes, that will do."        }
-      },
-      {
-        "-id": "chapter10",        "-speaker": "enclosure",        "line": [
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "in the mountain the arrow from a noble bow strikes my eye <br/>and a weak hand constrains my strength <br/><br/>",            "replacements": {
- "tag": "Magically decrypt first verse" }
-          },
-          {
-            "tag": "Magically decrypt first verse",            "content": "<em>I have found the son of a nobleman in the mountains.</em><br/>I am helping increase his powers. The boy is untaught.<br/><br/>"          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "the virago drains me of vigor<br/>her boneless mate has sent her shamefully away<br/><br/>",            "replacements": {
- "tag": "Lift the encryption on second verse." }
-          },
-          {
-            "inclusion": {
- "-final": "no" },
-            "tag": "Lift the encryption on second verse.",            "content": "I am having all my bones removed<br/>as a treatment for sexual disease.<br/><br/>",            "replacements": {
- "tag": "That can't be right. Try again." }
-          },
-          {
-            "tag": "That can't be right. Try again.",            "content": "I have found the nobleman's wife also.<br/>Her husband has cast her off.<br/><br/>"          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "tag": "Unlink line 5",            "content": "I drown in the desert of her desperation<br/>her legs spraddle with the weight of imminent sins<br/><br/>",            "replacements": {
- "tag": "Decrypt verse three." }
-          },
-          {
-            "tag": "Decrypt verse three.",            "components": {
-              "line": [
-                {
- "content": "She is young and thirsty for affection.<br/>" },
-                {
-                  "inclusion": {
- "-final": "no" },
-                  "content": "I will easily use her.<br/><br/>",                  "replacements": {
- "tag": "That's ambiguous. Can it be clarified?" }
-                }
-              ]
-            }
-          },
-          {
-            "tag": "That's ambiguous. Can it be clarified?",            "content": "I can easily spread her legs.<br/><br/>",            "replacements": {
- "tag": "Is that really what is meant?" }
-          },
-          {
-            "tag": "Is that really what is meant?",            "content": "She is not well protected from me.<br/><br/>",            "replacements": {
- "tag": "But the text did speak of \"using\" her." },
-            "removals": {
- "tag": "The magic cannot recover his precise meaning. Best to remove the line entirely" }
-          },
-          {
-            "tag": "But the text did speak of \"using\" her.",            "content": "She could easily be turned against her husband.<br/><br/>",            "replacements": {
- "tag": "Turned in what fashion?" },
-            "removals": {
- "tag": "Bah there is no making out the line it is detestable" }
-          },
-          {
-            "tag": "Turned in what fashion?",            "content": "There is nothing I could not make her do at my will.<br/><br/>",            "removals": {
- "tag": "Worse and worse, my fears corrupt the translation" }
-          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "tag": "Unlink line 7",            "content": "the sprig and the branch of an ichorous tree<br/>mad, unholy, I shape for the soldier and for the assassin<br/><br/>",            "replacements": {
- "tag": "Decrypt the fourth verse." }
-          },
-          {
-            "tag": "Decrypt the fourth verse.",            "content": "I mean to use both the son and the wife against their house.<br/>When we are not ready to march in open war we may still act by assassins.<br/><br/>"          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "tag": "Unlink line 9",            "content": "the tricksters must be scythed down without trial <br/>the hateful thronging oppressors lose their foothold<br/><br/>",            "replacements": {
- "tag": "Decrypt last verse." }
-          },
-          {
-            "tag": "Decrypt last verse.",            "content": "When the time comes we will kill every Magician and throw them all into the pit.<br/>What they have done to us will be at an end. They are proud. They defy God. They grind us under the heel. They do not know their place. I spit on them.<br/><br/>"          }
-        ]
-      },
-      {
-        "-id": "chapter11",        "-speaker": "henri",        "line": [
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "  <span class='date'>Paris, August 1788</span><br/><br/>  "          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "Juliette <br/><br/>I have to ask you what is the truth of your relationship to this friar, is it possible that he has already&#8212;",            "replacements": {
- "tag": "Begin again." }
-          },
-          {
-            "inclusion": {
- "-final": "no" },
-            "tag": "Begin again.",            "content": "do you take him in place of me",            "replacements": {
- "tag": "Start over. Calmer." }
-          },
-          {
-            "inclusion": {
- "-final": "no" },
-            "tag": "Start over. Calmer.",            "components": {
-              "line": [
-                {
- "content": "Juliette, <br/><br/>" },
-                {
- "content": "Thank you for the friar's letter. It was extremely enlightening. " },
-                {
-                  "inclusion": {
- "-final": "no" },
-                  "content": "If you have done wrong, it is for your own conscience to work out.",                  "replacements": {
- "tag": "No, I cannot possibly" }
-                }
-              ]
-            }
-          },
-          {
-            "inclusion": {
- "-final": "no" },
-            "tag": "No, I cannot possibly",            "components": {
-              "line": [
-                {
- "content": "You are not a fool, and I suppose you must have guessed some portion of what those words meant, even in their encoded form." },
-                {
- "content": "You know what is between me and Bernadette. Shall I beg your forgiveness for a lapse of my youth, committed before you were known of, when you were barely a baby yourself? " },
-                {
- "content": "How can I, when the friar in the same ink boasts that he has had his conquest of you, or will have soon!" },
-                {
- "content": "You, Juliette, the woman in all the world I thought least likely to betray me." },
-                {
- "content": "I know what is said about convents." },
-                {
- "content": "Everyone warned me about the debauchery of convent girls, their lust and secrecy and pride." },
-                {
- "content": "The convent is a garden that grows two kinds of flowers, the utterly pure and the utterly rank." },
-                {
- "content": "I had taken you for the lily, not the poisonous weed." },
-                {
- "content": "For that reason I married you. For that reason I defended you despite the preference of my family." },
-                {
- "content": "<br/><br/>Does he slander you, Juliette? Answer!" },
-                {
- "content": "<br/><br/>I have no instructions for you. How can I? " },
-                {
- "content": "What is the point of advising a woman who may be another man's? " }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "-id": "chapter12",        "-speaker": "juliette",        "line": [
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<span class='date'>Dauphin&#233;, August 1788</span><br/><br/>"          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "Henri,<br/><br/>"          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "I have not betrayed you."          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "Though you have certainly betrayed me. Sending me here so far from anyone. How is one meant to live in such a desert?<br/><br/>",            "removals": {
- "tag": "He does not understand." }
-          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "When I became your wife I was prepared to love, to obey without question. You did not allow me to do this.",            "removals": {
- "tag": "He does not understand." }
-          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "If occasionally I have thought of taking the friar as a lover<br/><br/>",            "replacements": {
- "tag": "There is no if." }
-          },
-          {
-            "inclusion": {
- "-final": "no" },
-            "tag": "There is no if.",            "content": "I have thought of taking the friar as a lover. He is strong, he is ferocious, I suspect that he is a lunatic. I dream that his lovemaking would be energetic and would take place in the small patch of weeds beside the church graveyard. Afterward, like a holy mad saint, I would burn with my own fire and fear nothing. If I gave birth to a bastard, he would have thick black eyebrows.<br/><br/>",            "replacements": {
- "tag": "He will certainly not understand that at all." }
-          },
-          {
-            "tag": "He will certainly not understand that at all.",            "content": "The friar is possibly a madman. Though he speaks fiercely, I have learned not to place all my faith and obedience in a man.<br/><br/>"          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "Juliette<br/><br/>"          }
-        ]
-      },
-      {
-        "-id": "chapter13",        "-speaker": "mother",        "line": [
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<span class='date'>The Convent of the Holy Weaver, August 1788</span>"          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "tag": "Oh, she will not be used to such endearments from me.",            "content": "<br/><br/>Dear Juliette,",            "replacements": {
-              "tag": [
-                "What harm in a little affection?",                "Perhaps the mantle of authority would better reassure her."              ]
-            }
-          },
-          {
-            "tag": "What harm in a little affection?",            "content": "<br/><br/>Dear little Juliette, my poppet and rose,",            "replacements": {
- "tag": "Oh, she will not be used to such endearments from me." }
-          },
-          {
-            "tag": "Perhaps the mantle of authority would better reassure her.",            "content": "<br/><br/>My child,",            "replacements": {
- "tag": "What harm in a little affection?" }
-          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<br/><br/>I read your letter with grief, my darling, for as you know I had always felt that you were too good for the world.",            "replacements": {
-              "tag": [
-                "That husband. Did he look trustworthy? No.",                "Still, her safety is more important than the concerns of a sentimental old woman."              ]
-            }
-          },
-          {
-            "tag": "Still, her safety is more important than the concerns of a sentimental old woman.",            "content": "<br/><br/>It is a delight to hear from you, my dear, and I am glad you confide in me still."          },
-          {
-            "tag": "That husband. Did he look trustworthy? No.",            "components": {
-              "line": [
-                {
-                  "content": "<br/><br/>I read your letter with grief, my darling, for as you know I had always felt that you were too good for the world."                },
-                {
-                  "content": "Now I wish all the more that you had stayed with us rather than entering into a state of marriage with one who does not give you scope for your natural affection and virtue."                }
-              ]
-            }
-          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "<br/><br/>As to your friar, I must tell you that your account makes me uneasy for your marriage because",            "replacements": {
- "tag": "Perhaps it is my role to advise her on the marital matters." },
-            "removals": {
- "tag": "Then again perhaps not." }
-          },
-          {
-            "tag": "Perhaps it is my role to advise her on the marital matters.",            "components": {
-              "line": [
-                {
- "content": "<br/><br/>As to your friar, I must tell you that your account makes me uneasy." },
-                {
- "content": "It is not enough to turn your dependency on your husband in another direction." },
-                {
- "content": "In that case, your loyalty will be divided, but you will be as weak a vessel as ever." },
-                {
-                  "inclusion": {
- "-final": "no" },
-                  "content": "Rely upon God. All other supports are flawed.",                  "replacements": {
- "tag": "A hard rule to give her. And incomplete." }
-                }
-              ]
-            }
-          },
-          {
-            "tag": "A hard rule to give her. And incomplete.",            "components": {
-              "line": [
-                {
-                  "content": "I will not tell you to rely only upon God: much Grace comes to us through other men."                },
-                {
- "content": "But be careful not to lean on those who might lead you astray." }
-              ]
-            }
-          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<br/><br/>I am suspicious of your friar. "          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "I have to tell you that the theology that pertains to magic is under attack and the institutions of the aristocracy undermined.",            "replacements": {
- "tag": "Juliette could understand more. She was always a bright girl." }
-          },
-          {
-            "tag": "Juliette could understand more. She was always a bright girl.",            "components": {
-              "line": [
-                {
-                  "content": "It has always been our doctrine that magic is the gift of God to his select servants upon the Earth."                },
-                {
- "content": "The mystic order of the Weaver has even proposed that to perform magic is to borrow with God's permission the power that He used to create the universe.<br/><br/>" },
-                {
- "content": "Of late disturbing rumors come to us that an old Heresy is reawakened: that the gift is the intended heritage of all mankind, but that the highborn in their pride, marrying only one another, have reserved it for themselves." }
-              ]
-            }
-          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "I do not know how it will end, but I foresee a great and cataclysmic change, now very near.",            "replacements": {
- "tag": "Would it frighten her to know more?" }
-          },
-          {
-            "tag": "Would it frighten her to know more?",            "components": {
-              "line": [
-                {
-                  "content": "<br/><br/>Some great change cannot be far off."                },
-                {
-                  "content": "Itinerant preachers rouse the people to anger by saying the high-born abuse their gifts."                },
-                {
-                  "content": "Someone has destroyed the magic links that supported the chapel at Saint-Denis, and its arches are destroyed."                }
-              ]
-            }
-          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "Therefore regard your friar carefully and watch him closely, and consider whether his words are from God or rather from political ambition, and jealousy of his betters.",            "replacements": {
-              "tag": [
-                "Perhaps she will resent such a phrasing.",                "Or again perhaps I should warn her of what she faces."              ]
-            }
-          },
-          {
-            "tag": "Perhaps she will resent such a phrasing.",            "components": {
-              "line": [
-                {
- "content": "<br/><br/>Therefore regard your friar carefully and watch him closely." },
-                {
- "content": "In times of trouble we cannot always trust entirely to our leaders and authorities, which may be misguided." },
-                {
-                  "content": "We must pray and rely on the Spirit to show the proper way."                }
-              ]
-            }
-          },
-          {
-            "tag": "Or again perhaps I should warn her of what she faces.",            "components": {
-              "line": [
-                {
- "content": "<br/><br/>Therefore regard your friar carefully and watch him closely." },
-                {
-                  "content": "If he is, as I fear he may be, a heretic and a fanatic, he may be a danger to you, because though you do not yourself carry the strain of magic, the family of your marriage does so."                }
-              ]
-            }
-          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<br/><br/>Mother Superior."          }
-        ]
-      },
-      {
-        "-id": "chapter14",        "-speaker": "alise",        "line": [
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "  <span class='date'>Paris, August 1788</span><br/><br/>  "          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "  I have had your letter, Henri, and I have read it a half a dozen times, and it makes no more sense than it did on the first occasion.  "          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<br/><br/>What is this nonsense about putting Juliette away?  ",            "replacements": {
- "tag": "That almost sounds as though I defend the wretch." }
-          },
-          {
-            "tag": "That almost sounds as though I defend the wretch.",            "components": {
-              "line": [
-                {
-                  "content": "<br/><br/>What is this nonsense about putting Juliette away?"                },
-                {
-                  "content": "You have already put her away! You have sent her to the country; you never see her. ",                  "replacements": {
- "tag": "Do you know, I think dear Henri feels a tiny bit of guilt about that." }
+                    "tag": "哦，说得多么平淡！",
+                    "components": {
+                        "line": [{
+                                "content": "<br/><br/>我几乎可以肯定，如果约瑟芬姨妈不得不再与您妻子共进一顿晚餐，她会与你们俩断绝关系。",
+                                "replacements": {
+                                    "tag": "那老太太看着波尔多酒时有多恶毒。"
+                                }
+                            },
+                            {
+                                "content": "把她留住，让她远离社交圈，直到我们姨妈去世使您的财产得到保障。",
+                                "replacements": {
+                                    "tag": "太残忍了？应该给人一线希望。"
+                                }
+                            }
+                        ]
+                    }
                 },
                 {
-                  "content": "As for divorce you must know it is impossible and that our aunt would not tolerate such a thing in the family."                }
-              ]
-            }
-          },
-          {
-            "tag": "Do you know, I think dear Henri feels a tiny bit of guilt about that.",            "components": {
-              "line": [
-                {
-                  "content": "You have already sent her to the country; you never see her.  "                },
-                {
-                  "inclusion": {
- "-final": "no" },
-                  "content": "You could hardly do more unless you were to hire a poisoner. I am acquainted with a nasty little old woman, Louise Fanteaux, who is constantly hinting that she does such things for a price. I dare say she is making it up to be interesting, but if you would like an introduction...  ",                  "replacements": {
- "tag": "No. Too far." }
-                }
-              ]
-            }
-          },
-          {
-            "tag": "No. Too far.",            "content": "You could hardly do more unless you were to hire a poisoner.  "          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<br/><br/>I cannot think she has done what you say.   "          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "  She is so tiresomely innocent that it would not enter her head.  ",            "replacements": {
- "tag": "No, one must give the girl her due." }
-          },
-          {
-            "tag": "No, one must give the girl her due.",            "components": {
-              "line": [
-                {
-                  "content": "Whatever else you might say about her, she is not a hypocrite."                },
-                {
- "content": "Yes, and let me tell you another thing in your ear, brother." },
-                {
- "content": "This story she has given you is not so far-fetched. I have heard things from my friends in the countryside, that strange bastard Lavori magic pops up here and there." }
-              ]
-            }
-          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<br/><br/>Your affectionate sister Alise"          }
-        ]
-      },
-      {
-        "-id": "chapter15",        "-speaker": "juliette",        "line": [
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "  <span class='date'>Dauphin&#233;, August 1788</span><br/><br/>  "          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "Dear boy,<br/><br/>"          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "I have heard of your presence in this village, and am ready to acknowledge you as my son.",            "replacements": {
- "tag": "That is too much. Henri might not keep the promise made for him." }
-          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "You must come to Paris immediately.",            "replacements": {
- "tag": "Perhaps he would be gentler with someone other than his wife." }
-          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "Avoid the company of the friar.",            "replacements": {
- "tag": "Maybe if instead we pointedly invited the mother alone..." },
-            "removals": {
- "tag": "Nothing could be more suspicious than to forbid the boy his only friend." }
-          },
-          {
-            "tag": "That is too much. Henri might not keep the promise made for him.",            "components": {
-              "line": [
-                {
-                  "content": "Having heard of you through my wife, I have become interested in your desire to learn the art of the magicians, what we call the Lavori d'Aracne."                },
-                {
- "content": "It is not right for anyone who has the talent to go without guidance of some sort, and so I write to extend to you the hand of a friend and protector." }
-              ]
-            }
-          },
-          {
-            "tag": "Perhaps he would be gentler with someone other than his wife.",            "content": "If you will, in the company of my wife and servants, be willing to make me a visit in Paris, I will see you comfortably situated, and help you to learn all you wish to know; after that, you may do as you will."          },
-          {
-            "tag": "Maybe if instead we pointedly invited the mother alone...",            "content": "I cannot offer to house a large family or numerous companions, but if you do wish to bring your mother with you, a place can be found for her.",            "removals": {
- "tag": "No, no. If she wants to come, she will, but no need to offer." }
-          }
-        ],
-        "pageturn": {
-          "deniedmessage": "It must seem persuasive, not only to the boy but to his mother and the friar.",          "content": "Yes, that will do."        }
-      },
-      {
-        "-id": "chapter16",        "-speaker": "juliette",        "line": [
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<span class='date'>Dauphin&#233;, September 1788</span>"          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<br/><br/>Husband,<br/><br/>"          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "1. Tell him what has been decided.<br/><br/>",            "replacements": {
-              "tag": [
-                "Let it be simple and without apology.",                "Perhaps I ought at least to acknowledge that it is not what he would have wished."              ]
-            }
-          },
-          {
-            "tag": "Let it be simple and without apology.",            "components": {
-              "line": [
-                {
- "content": "I write to let you know that I am coming home, and immediately." },
-                {
- "content": "I am bringing with me your son. His powers put him in danger." },
-                {
- "content": "<br/><br/>He thinks he comes by your invitation." }
-              ]
-            }
-          },
-          {
-            "tag": "Perhaps I ought at least to acknowledge that it is not what he would have wished.",            "components": {
-              "line": [
-                {
- "content": "Something has happened that makes it imperative I bring your son home to you. I am now on the verge of setting out." },
-                {
-                  "inclusion": {
- "-final": "no" },
-                  "content": "What I have learned from observing the friar, and word come to me from Mother Superior, indicate a plot",                  "removals": {
- "tag": "No, it is too much to explain, this will have to wait." }
+                    "tag": "那老太太看着波尔多酒时有多恶毒。",
+                    "components": {
+                        "line": [{
+                                "content": "<br/><br/>您难道没有看到约瑟芬姨妈是如何用眼神刺向朱丽叶的吗？当朱丽叶不明智地轻视波尔多酒，说它无法与迦南婚宴上的酒相比时？"
+                            },
+                            {
+                                "content": "我几乎可以肯定，如果那老太太不得不再与您妻子共进一顿晚餐，她会与你们俩断绝关系。"
+                            }
+                        ]
+                    }
                 },
                 {
- "content": "<br/><br/>Your son thinks he comes by your invitation." }
-              ]
-            }
-          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "2. Convince him that he must acquiesce.<br/><br/>",            "replacements": {
- "tag": "He must understand the danger the boy poses." }
-          },
-          {
-            "tag": "He must understand the danger the boy poses.",            "components": {
-              "line": [
+                    "tag": "太残忍了？应该给人一线希望。",
+                    "components": {
+                        "line": [{
+                                "content": "把她留住，让她远离社交圈，直到我们姨妈去世使您的财产得到保障。"
+                            },
+                            {
+                                "content": "最多也就一两年了。"
+                            }
+                        ]
+                    }
+                },
                 {
- "content": "If you are wise, you will give him no cause to think I have lied." },
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "<br/><br/>与此同时，我相信我已经发现了P——继承人的父亲是谁，因为您知道P——夫人在打牌时总是喋喋不休",
+                    "removals": {
+                        "tag": "最好不要分散亨利对我建议的注意力。"
+                    }
+                },
                 {
- "content": "He has spent a year and more in the company of the most seductive and dangerous kind of philosopher, who has all but convinced him he was sent here to right the wrongs of the nobility against third estate." },
-                {
- "content": "Therefore the boy sees himself a magician in training to destroy the magical classes." },
-                {
-                  "inclusion": {
- "-final": "no" },
-                  "content": "<br/><br/>Give him a suspicion that you reject him, that you did not want him in your house, and he will be lost to us and become our most devoted enemy.",                  "replacements": {
- "tag": "No, that is not enough for him to understand." }
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<br/><br/>您深情的姐姐阿莉丝"
                 }
-              ]
-            }
-          },
-          {
-            "tag": "No, that is not enough for him to understand.",            "components": {
-              "line": [
+            ]
+        },
+        {
+            "-id": "chapter3",
+            "-speaker": "henri",
+            "line": [{
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "  <span class='date'>巴黎，1788年7月</span>  "
+                },
                 {
-                  "content": "<br/><br/>Give him a suspicion that you reject him, that you did not want him in your house, and he will be lost to us and become our most devoted enemy."                },
+                    "tag": "让她留下。    ",
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "<br/><br/>1. 确保她待在原地。    ",
+                    "replacements": {
+                        "tag": [
+                            "向她保证她在巴黎什么也没错过。", "直接命令她留下。"
+                        ]
+                    }
+                },
                 {
- "content": "I have seen him running in the fields with the friar as his guide; I have heard their conversations." },
+                    "tag": "直接命令她留下。    ",
+                    "content": "<br/><br/>亲爱的朱丽叶，<br/><br/>我知道你不喜欢目前的环境，但请你留在原地，这会让我高兴。    ",
+                    "replacements": {
+                        "tag": "向她保证她在巴黎什么也没错过。"
+                    }
+                },
                 {
- "content": "He is learning as much to break the bonds of magic as to create them." },
+                    "tag": "向她保证她在巴黎什么也没错过。    ",
+                    "components": {
+                        "line": [{
+                                "tag": "同情她的处境。        ",
+                                "content": "<br/><br/>亲爱的朱丽叶，<br/><br/>我知道你无聊得快发疯了，但我向你保证，你在巴黎什么也没错过。         "
+                            },
+                            {
+                                "tag": "她的朋友们都走了。",
+                                "content": "我们所有的好朋友都到乡下避暑去了，街上的粪便臭气熏天。        ",
+                                "replacements": {
+                                    "tag": "提到粪便可能会冒犯她。"
+                                }
+                            },
+                            {
+                                "tag": "   她可以在格勒诺布尔随心所欲。",
+                                "content": "<br/><br/>如果你想买些手套犒劳自己，或者让格勒诺布尔的商人们得到超出他们应得的财富，我不会吝惜花费。   ",
+                                "replacements": {
+                                    "tag": "可以把这个许可说得更慷慨些。"
+                                },
+                                "removals": {
+                                    "tag": "她可能会反对被贿赂，就像用糖果哄小孩一样。"
+                                }
+                            }
+                        ]
+                    }
+                },
                 {
- "content": "If he comes among the nobility in his current state he will destroy much of our strength." },
+                    "tag": "可以把这个许可说得更慷慨些。",
+                    "content": "  如果你想念商店和城市的乐趣，那就尽情在格勒诺布尔的手套商那里享受吧，给你所有的朋友送礼物。  ",
+                    "removals": {
+                        "tag": "她可能会反对被贿赂，就像用糖果哄小孩一样。"
+                    }
+                },
                 {
- "content": "<br/><br/>It will be for you to teach him the right way to go about these things." },
+                    "tag": "提到粪便可能会冒犯她。",
+                    "components": {
+                        "line": [{
+                                "content": "阿莉丝给我带来了一株镀金玫瑰花丛，让房子里弥漫着香蒂伊花园般的香气。      "
+                            },
+                            {
+                                "content": "你的朋友L伯爵夫人非常欣赏这个魔法，一直暗示我应该把它送给她。       "
+                            },
+                            {
+                                "content": "当我不肯时，她叹了口气，说没有这样的帮助，巴黎简直无法忍受。      "
+                            },
+                            {
+                                "content": "她和伯爵已经离开城里，去躲避到处弥漫的炎热和臭味。      "
+                            }
+                        ]
+                    }
+                },
                 {
- "content": "How to create by his powers, and the value of doing so. The theology and purpose of it." },
+                    "tag": "      打听那个男孩的事。他会是我和贝尔纳黛特生的吗？    ",
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "<br/><br/>2. 打听那个男孩的事。他会是我和贝尔纳黛特生的吗？    ",
+                    "replacements": {
+                        "tag": "询问更多关于那个男孩的信息。"
+                    }
+                },
                 {
- "content": "If your will is not stern enough for this, he will surely leave us." }
-              ]
-            }
-          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "3. Show that I will brook no argument.",            "replacements": {
- "tag": "Make it sound like a choice of a religious nature." }
-          },
-          {
-            "tag": "Make it sound like a choice of a religious nature.",            "content": "<br/><br/>All that I have done, I have confessed to a higher authority, and it is settled in my heart."          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<br/><br/>Juliette"          }
-        ],
-        "pageturn": {
-          "deniedmessage": "It is not clear enough yet.",          "content": "Yes, that will do."        }
-      },
-      {
-        "-id": "chapter17",        "-speaker": "alise",        "line": [
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<span class='date'>Paris, December 1788</span><br/><br/>"          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "My dear Henri,"          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<br/><br/>I doubt whether I have enjoyed such an entertainment in my life as in observing the presentation of your son to Aunt Josephine."          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "If this is the consequence of three months' training in how to behave, I beg you will not introduce him to anyone else until he has had another five years."          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "The credit of our family cannot withstand a scion who dips his fingers in the soup.",            "removals": {
- "tag": "Though of course it CAN. Especially a scion with such powers." }
-          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<br/><br/>But of course it hardly matters!"          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "The look on Josephine's face when he broke the links on that horrid enchanted fan of hers! ",            "replacements": {
- "tag": "A moment of purest delight, really." }
-          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<br/><br/>I believe she means to settle a substantial sum immediately, to your benefit and his."          },
-          {
-            "tag": "A moment of purest delight, really.",            "components": {
-              "line": [
+                    "tag": "询问更多关于那个男孩的信息。",
+                    "components": {
+                        "line": [{
+                                "content": "<br/><br/>你必须告诉我更多关于你的相识和他照看的人的事情！"
+                            },
+                            {
+                                "content": "我从未听说村里有这样一个年轻人，我在想他可能是谁。",
+                                "replacements": {
+                                    "tag": "也许可以打听他是否像贝尔纳黛特一样是金发。"
+                                }
+                            },
+                            {
+                                "inclusion": {
+                                    "-final": "no"
+                                },
+                                "content": "如果他自己发现了如何使用魔法，那他一定继承了非凡的技能！现在很少有合法的贵族之子表现出如此强大的天赋。",
+                                "replacements": {
+                                    "tag": "也许听起来应该更超然一些……"
+                                }
+                            }
+                        ]
+                    }
+                },
                 {
-                  "content": "The look on Josephine's face when he broke the links on that horrid enchanted fan of hers!"                },
+                    "tag": "也许听起来应该更超然一些……",
+                    "components": {
+                        "line": [{
+                                "content": "<br/><br/>如果他真的独自学会了魔法，没有任何与他父母同阶层的人指导，那他一定有相当的天赋。"
+                            },
+                            {
+                                "content": "你自己当然不会知道这些，但当一个人第一次学会看世界中的对应关系时，就像看一张无法阅读的字母表。",
+                                "replacements": {
+                                    "tag": "不要让她因为缺乏魔法能力而不高兴。"
+                                },
+                                "removals": {
+                                    "tag": "完全省略对这个话题的任何评论。谁知道什么会冒犯人呢。"
+                                }
+                            },
+                            {
+                                "content": "他就像没有任何导师就猜到了如何写自己的名字一样。"
+                            },
+                            {
+                                "inclusion": {
+                                    "-final": "no"
+                                },
+                                "content": "即使没有早期训练，他对一个政治家族来说也是一笔财富；而且他不可能有自己的联盟。",
+                                "removals": {
+                                    "tag": "不要表现出明显的热情。"
+                                }
+                            }
+                        ]
+                    }
+                },
                 {
-                  "content": "Is angry delight an expression you have seen before? I regret we had no artist at hand to record a thing so without precedent.",                  "replacements": {
- "tag": "Oh, and one must mention the business of Samarkand!" }
+                    "tag": "也许可以打听他是否像贝尔纳黛特一样是金发。",
+                    "components": {
+                        "line": [{
+                                "content": "我从未听说村里有这样一个年轻人，我在想他可能是谁。  "
+                            },
+                            {
+                                "content": "他是否有像茅草一样的金发？  "
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "不要让她因为缺乏魔法能力而不高兴。",
+                    "components": {
+                        "line": [{
+                                "content": "  你没有在拉沃里魔法中长大，所以你不知道那是什么感觉（请不要把这当作批评，亲爱的女孩：如果你有这种天赋，你作为伴侣就不会有现在一半舒适了）。  ",
+                                "removals": {
+                                    "tag": "完全省略对这个话题的任何评论。谁知道什么会冒犯人呢。"
+                                }
+                            },
+                            {
+                                "content": "当一个人第一次学会看世界中的对应关系时，就像看一张无法阅读的字母表。  "
+                            }
+                        ]
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "<br/><br/>3. 在结束前换个话题。  ",
+                    "replacements": {
+                        "tag": [
+                            "用一些稍微和解的话来结束。", "阻止她继续抱怨。"
+                        ]
+                    }
+                },
+                {
+                    "tag": "阻止她继续抱怨。",
+                    "components": {
+                        "line": [{
+                                "content": "<br/><br/>我知道你对我们目前的安排不太满意。"
+                            },
+                            {
+                                "content": "尽管如此，我必须请你勇敢地坚持下去，不要在一个目前不能改变的情况上纠缠我。",
+                                "replacements": {
+                                    "tag": "这会让她问“目前”是多长时间。"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "这会让她问“目前”是多长时间。",
+                    "components": {
+                        "line": [{
+                                "content": "尽管如此，我必须请你勇敢地坚持下去。"
+                            },
+                            {
+                                "inclusion": {
+                                    "-final": "no"
+                                },
+                                "content": "我并非有意把你关起来。",
+                                "replacements": {
+                                    "tag": [
+                                        "承诺秋天去看她。", "一两年后她住在巴黎可能更合适。"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "承诺秋天去看她。",
+                    "content": "秋天我应该可以去那里看你。",
+                    "removals": {
+                        "tag": "如果我承诺了这个，结果证明不方便的话，她会非常生我的气。"
+                    }
+                },
+                {
+                    "tag": "一两年后她住在巴黎可能更合适。",
+                    "content": "一两年后，当我的地位更稳固，我目前从事的工作完成后，我看不出你有什么理由不能回到巴黎。",
+                    "replacements": {
+                        "tag": "也许不提具体时间会更明智。"
+                    }
+                },
+                {
+                    "tag": "也许不提具体时间会更明智。",
+                    "content": "当我的地位更稳固，我目前从事的工作完成后，我看不出你有什么理由不能回到巴黎。"
+                },
+                {
+                    "inclusion": {
+                        "-final": "no"
+                    },
+                    "tag": "用一些稍微和解的话来结束。",
+                    "content": "<br/><br/>3. 用一些稍微和解的话来结束。  ",
+                    "replacements": {
+                        "tag": [
+                            "对阿尔卑斯山稍微感性一些。", "请求她原谅没有带她回家。", "赞美她的可靠和美德。"
+                        ]
+                    }
+                },
+                {
+                    "tag": "赞美她的可靠和美德。",
+                    "content": "<br/><br/>我知道你会按照我的要求留下：你一直是最忠诚的女人。  "
+                },
+                {
+                    "tag": "对阿尔卑斯山稍微感性一些。",
+                    "components": {
+                        "line": [{
+                                "content": "<br/><br/>振作起来：你在我最爱的地方。     "
+                            },
+                            {
+                                "content": "你有冰川吹来的微风，有层层叠叠的绿色山丘，还有黄昏时响起的牛铃声。    "
+                            },
+                            {
+                                "content": "吃一些小越橘，想想被困在这里的我，四周都是几乎没洗过澡的人。    "
+                            }
+                        ]
+                    },
+                    "replacements": {
+                        "tag": "请求她原谅没有带她回家。"
+                    }
+                },
+                {
+                    "tag": "请求她原谅没有带她回家。",
+                    "components": {
+                        "line": [{
+                                "content": "<br/><br/>请原谅我无法请你回家。我的工作需要我全神贯注。",
+                                "replacements": {
+                                    "tag": "不，为什么要请求原谅？她是妻子，不是任性的情妇。"
+                                }
+                            },
+                            {
+                                "content": "我非常忙于政治事务。我担心如果你在家，我无法像你需要的那样照顾你。",
+                                "replacements": {
+                                    "tag": "去掉“需要”这个词，不太友善。"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "不，为什么要请求原谅？她是妻子，不是情妇。",
+                    "content": "<br/><br/>我不请你回家是因为我的工作需要我全神贯注。  ",
+                    "replacements": {
+                        "tag": "不过，可以说得更温和一些。"
+                    }
+                },
+                {
+                    "tag": "不过，可以说得更温和一些。",
+                    "content": "<br/><br/>很遗憾，我必须全神贯注于我的工作。  ",
+                    "replacements": {
+                        "tag": "不，为什么要请求原谅？她是妻子，不是任性的情妇。"
+                    }
+                },
+                {
+                    "tag": "去掉“需要”这个词，不太友善。",
+                    "content": "我非常忙于政治事务。我担心如果你在家，我无法像你应得的那样照顾你。",
+                    "replacements": {
+                        "tag": "对阿尔卑斯山稍微感性一些。"
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<br/><br/>亨利  "
                 }
-              ]
+            ],
+            "pageturn": {
+                "deniedmessage": "这可能还不够。",
+                "content": "他把信纸交给仆人抄写。"
             }
-          },
-          {
-            "tag": "Oh, and one must mention the business of Samarkand!",            "content": "<br/><br/>What's more, we will not have to listen to her ever again say what a <em>powerful</em> heirloom it is, and how the breeze it wafts is magicked straight from Samarkand. She always claimed to be able to smell exotic spices, but <em>I</em> never caught a thing but plain Paris air."          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "Meanwhile Juliette seems much altered. I almost like her.",            "replacements": {
- "tag": "No, that is not it." }
-          },
-          {
-            "tag": "No, that is not it.",            "components": {
-              "line": [
+        },
+        {
+            "-id": "chapter4",
+            "-speaker": "juliette",
+            "line": [{
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "  <span class='date'>多菲内，1788年7月</span><br/><br/>  "
+                },
                 {
-                  "content": "<br/><br/>As for your Juliette!"                },
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "  亲爱的亨利，<br/><br/>  "
+                },
                 {
-                  "inclusion": {
- "-final": "no" },
-                  "content": "I have not seen a woman so changed for the better since Madame M&#8212; was seduced by the prelate, do you recall",                  "replacements": {
- "tag": "Fah, he is bound to take me literally." }
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "tag": "      讲述修士来访的故事。    ",
+                    "content": "今天早上我们谈了很长时间，我的新相识修士和我。<br/><br/>    ",
+                    "replacements": {
+                        "tag": "提到他不愿听我告解？"
+                    }
+                },
+                {
+                    "tag": "      提到他不愿听我告解？    ",
+                    "content": "      今天早上我们谈了很长时间，我的新相识修士和我。虽然他并不总是像个修士。他不愿听我告解，说那样不合适。<br/><br/>    "
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "tag": "      描述我们如何见到那位贵族的私生子。    ",
+                    "content": "      他带我去见了那位贵族的私生子。那男孩是个金发的年轻人，大约十七岁，像牛一样强壮，很安静。<br/><br/>    ",
+                    "replacements": {
+                        "tag": "这个男孩可能是亨利的儿子。不妨试探一下他。"
+                    }
+                },
+                {
+                    "tag": "      这个男孩可能是亨利的儿子。不妨试探一下他。    ",
+                    "components": {
+                        "line": [{
+                                "tag": "提到见到私生子。",
+                                "content": "     他带我去见了那位贵族的私生子。那男孩是个金发的年轻人，大约十七岁，像牛一样强壮，很安静。         "
+                            },
+                            {
+                                "tag": "描述他的性格。",
+                                "content": "    我分不清他是愚钝还是深沉。         "
+                            },
+                            {
+                                "tag": "详述与男孩母亲有关的事。",
+                                "content": "     他的母亲待在后面：一个名叫贝尔纳黛特的高个子女人。         "
+                            },
+                            {
+                                "tag": "描述母亲的反应。",
+                                "content": "    当她看到我在看她时，她把目光移开了。         ",
+                                "replacements": {
+                                    "tag": [
+                                        "那让她听起来像是心虚。我必须说得更天真些。", "也许我应该提到她已经失去了美貌。"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "  那让她听起来像是心虚。我必须说得更天真些。  ",
+                    "components": {
+                        "line": [{
+                                "content": "  她不正眼看我。   "
+                            },
+                            {
+                                "content": "  也许她是害羞。  "
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "  也许我应该提到她已经失去了美貌。  ",
+                    "components": {
+                        "line": [{
+                                "content": "  从她的骨相来看，她曾经是个美人，但阳光和风使她的皮肤变得粗糙，头发变得脆弱。   "
+                            },
+                            {
+                                "content": "  她的眼睛浑浊流泪。  "
+                            }
+                        ]
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "tag": "      提到私生子的田间劳作。    ",
+                    "content": "      我们在羊圈里找到了这个年轻人，他正在用拉沃里魔法修理栅栏。    "
+                },
+                {
+                    "tag": "描述对这个场景的反应。",
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "真是丑闻！在某个粪便遍地的田野里发现公爵和王子的魔法！",
+                    "replacements": {
+                        "tag": [
+                            "也许连亨利都会觉得这种反应过度。", "提到修士对这个场景说了什么。"
+                        ]
+                    }
+                },
+                {
+                    "tag": "也许连亨利都会觉得这种反应过度。",
+                    "content": "看到伟大建筑师们用来建造博韦大教堂的方法被用来围羊，我有点震惊。",
+                    "replacements": {
+                        "tag": "也许这听起来像是我想告诉他魔法的用途。"
+                    }
+                },
+                {
+                    "tag": "也许这听起来像是我想告诉他魔法的用途。",
+                    "content": "看到伯爵和王子的天生权利被用来围羊，我有点震惊。 "
+                },
+                {
+                    "tag": "      提到修士对这个场景说了什么。    ",
+                    "components": {
+                        "line": [{
+                                "content": "<br/><br/>我悄悄对修士说了我的震惊。他厚厚的嘴唇立刻往后翻卷，眉头皱起，看起来像个石像鬼。"
+                            },
+                            {
+                                "content": "“你不赞成吗？”他问道。"
+                            },
+                            {
+                                "content": "他的愤怒让我有一种刺激感，好像我抓住了一条活蛇。",
+                                "replacements": {
+                                    "tag": "也许蛇的比喻有点耸人听闻。"
+                                }
+                            },
+                            {
+                                "tag": "回顾你的辩护。",
+                                "content": "<br/><br/>我告诉他修道院的修女们经常告诉我的话：拉沃里魔法是上帝赐给人类领袖的。",
+                                "replacements": {
+                                    "tag": "对话还有更多内容：不妨全都说出来。"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "对话还有更多内容：不妨全都说出来。",
+                    "components": {
+                        "line": [{
+                                "content": "<br/><br/>我告诉他修道院的修女们经常告诉我的话：拉沃里魔法是上帝赐给人类领袖的。        "
+                            },
+                            {
+                                "content": "然后他问我是否认为魔法使用者像天使一样，还是他们也会做错事。"
+                            },
+                            {
+                                "content": "我自然说他们也有亚当的堕落。"
+                            },
+                            {
+                                "inclusion": {
+                                    "-final": "no"
+                                },
+                                "content": "想想那个把魔法用于纸牌作弊的英国伯爵的案例。        ",
+                                "removals": {
+                                    "tag": "过度说教从来不会让亨利高兴。"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "也许蛇的比喻有点耸人听闻。",
+                    "content": "我吓得浑身发冷。"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "tag": "      告诉修士说了什么。    ",
+                    "content": "<br/><br/>修士说是他自己建议那个男孩用这种方式使用他的天赋的。    ",
+                    "replacements": {
+                        "tag": "提到修士如何谴责男孩的父亲。"
+                    }
+                },
+                {
+                    "tag": "提到修士如何谴责男孩的父亲。",
+                    "components": {
+                        "line": [{
+                                "content": "<br/><br/>修士说是他自己建议那个男孩用这种方式使用他的天赋的。        "
+                            },
+                            {
+                                "content": "        “他的父亲不愿意认他，不愿意把他培养成魔法师，”他说，从那浓密的眉毛下斜眼看着我。         "
+                            },
+                            {
+                                "content": "        “但至少他可以帮助那些与他为伍的农民。”        ",
+                                "replacements": {
+                                    "tag": "对修士提出一个猜测。"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "对修士提出一个猜测。",
+                    "content": "从他说话的方式来看，我有时候在想修士本人是否与贵族有某种私生的关系，并且在怨恨一个没有认他的父亲。",
+                    "removals": {
+                        "tag": "也许这对一位女士来说是不太得体的想法。"
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<br/><br/>总的来说，我不确定修士是否是一个适合我结交的人。"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "他有些想法甚至可能是异端。",
+                    "replacements": {
+                        "tag": "亨利对异端不感兴趣。也许用政治来表述。"
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "我祈求您能带我回家。"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "坦白说，和他在一起我不信任自己。",
+                    "removals": {
+                        "tag": "对丈夫坦白并不总是个好主意。"
+                    }
+                },
+                {
+                    "tag": "亨利对异端不感兴趣。也许用政治来表述。",
+                    "content": "      他有些想法甚至可能是革命性的。    "
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<br/><br/>您顺从的妻子，朱丽叶  "
                 }
-              ]
+            ],
+            "pageturn": {
+                "deniedmessage": "语气对吗？说得够充分而不冒犯吗？",
+                "content": "好的，这样就可以了。"
             }
-          },
-          {
-            "tag": "Fah, he is bound to take me literally.",            "components": {
-              "line": [
+        },
+        {
+            "-id": "chapter5",
+            "-speaker": "juliette",
+            "line": [{
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "  <span class='date'>多菲内，1788年7月</span><br/><br/>  "
+                },
                 {
-                  "content": "When I congratulated her on discovering your magical bastard, she looked sideways and said that François might have left some similar treasure, and I should look to it."                },
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "凯瑟琳-阿涅丝嬷嬷，"
+                },
                 {
-                  "content": "It is so exactly what a sister-in-law ought to say."                },
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<br/><br/>虽然我已经离开了修道院，但我必须再次向您寻求指导，就像我年轻时那样。"
+                },
                 {
-                  "content": "I am sending her my diamond cat brooch for a present, and because it is ugly."                }
-              ]
-            }
-          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<br/><br/>Your very relieved sister, Alise"          }
-        ]
-      },
-      {
-        "-id": "chapter18",        "-speaker": "juliette",        "line": [
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "  <span class='date'>Paris, January</span><br/><br/>  "          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "Mother Catherine-Agnes,<br/><br/>"          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "Thank you for your guidance.<br/><br/>"          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "What we learned of the friar was not at all to his advantage."          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "For it seems that he had found a natural-born son of Henri's, of great magical ability, and meant to raise him with a distaste for us and our class.",            "replacements": {
- "tag": "Meant to... Nearly succeeded, at that." }
-          },
-          {
-            "tag": "Meant to... Nearly succeeded, at that.",            "components": {
-              "line": [
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "请告诉我：我因为丈夫把我送到乡下而生气，这样做对吗？",
+                    "replacements": {
+                        "tag": [
+                            "生气甚至不是完全正确的词。悲伤？", "困惑？", "被背叛？"
+                        ]
+                    }
+                },
                 {
-                  "content": "For it seems that he had found a natural-born son of Henri's, of great magical ability, and meant to raise him with a distaste for us and our class."                },
+                    "tag": "生气甚至不是完全正确的词。悲伤？",
+                    "content": "请告诉我：我因为丈夫把我送到乡下而悲伤，这样做对吗？",
+                    "replacements": {
+                        "tag": "好像还没有完全爱上他——还没有。"
+                    }
+                },
                 {
-                  "content": "<br/><br/>Indeed, the boy is very badly suited for our society. At times he has a look of the wolf in his eyes. He urinated into a fountain-link and drowned my aunt-in-law's carp in piss before the matter could be reversed.",                  "replacements": {
- "tag": "That paints a more vicious picture than is entirely fair." },
-                  "removals": {
- "tag": "Perhaps it is not proper to gossip too much about what is a family affair." }
+                    "tag": "好像还没有完全爱上他——还没有。",
+                    "components": {
+                        "line": [{
+                                "content": "请告诉我：我因为丈夫把我送到乡下而悲伤，这样做对吗？"
+                            },
+                            {
+                                "content": "说我心碎了太夸张了。更确切地说，如果给我机会，我可能会对他产生深厚的感情；但他让我们之间的距离太远了。"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "困惑？",
+                    "content": "我感到困惑，不知所措，因为我丈夫把我送到了乡下。",
+                    "replacements": {
+                        "tag": "好像我并没有做错什么。"
+                    }
+                },
+                {
+                    "tag": "好像我并没有做错什么。",
+                    "components": {
+                        "line": [{
+                                "content": "我感到困惑，不知所措，因为我丈夫把我送到了乡下。"
+                            },
+                            {
+                                "content": "我一直是个好妻子；从未逃避或在婚姻义务中表现出不满；对他的所有家人都举止得体。"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "被背叛？",
+                    "content": "请告诉我：我因为丈夫把我送到乡下而感到被背叛，这样做对吗？",
+                    "replacements": {
+                        "tag": [
+                            "他选择他的家人而不是我。", "他是否可能有情人？"
+                        ]
+                    }
+                },
+                {
+                    "tag": "他选择他的家人而不是我。",
+                    "components": {
+                        "line": [{
+                                "content": "请告诉我：我因为丈夫把我送到乡下而感到被背叛，这样做对吗？"
+                            },
+                            {
+                                "content": "他站在他姐姐一边看不起我。她不断表现出对我单纯的蔑视，而亨利从来不站在我这边。"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "他是否可能有情人？",
+                    "components": {
+                        "line": [{
+                                "content": "请告诉我：我因为丈夫把我送到乡下而感到被背叛，这样做对吗？"
+                            },
+                            {
+                                "content": "我本来不会想到在我们结婚后这么快就可能发生这种事，但也许他已经决定寻找其他的陪伴。我没有看到任何迹象，但也许我太天真了，不会知道；谁能猜到他在这么远的地方做什么呢？"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<br/><br/>我经常给我丈夫写信，但他回复得很不耐烦。  ",
+                    "replacements": {
+                        "tag": "我可以解释得更清楚。"
+                    },
+                    "removals": {
+                        "tag": "话又说回来，我们应该反省自己的过错，而不是别人的。"
+                    }
+                },
+                {
+                    "tag": "我可以解释得更清楚。",
+                    "components": {
+                        "line": [{
+                                "content": "<br/><br/>我经常给我丈夫写信，但他回复得很不耐烦。"
+                            },
+                            {
+                                "content": "他责备我浪费连接纸，问我如果有紧急事情而所有的纸都用完了怎么办。"
+                            },
+                            {
+                                "content": "我告诉他，那就给我寄一批新的来，但他只是让我更小心些。 ",
+                                "removals": {
+                                    "tag": "我想那个细节不重要。"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "components": {
+                        "line": [{
+                                "content": "这一带有一位修士一直是我的精神导师，但我不确定他的建议是否正确。"
+                            },
+                            {
+                                "content": "他提醒我忠诚和荣誉的职责，但他也让我有点害怕。 ",
+                                "replacements": {
+                                    "tag": "我必须说得更具体些。"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "我必须说得更具体些。",
+                    "components": {
+                        "line": [{
+                                "content": "<br/><br/>这一带有一位修士一直是我的精神导师，但我不确定他的建议是否正确。"
+                            },
+                            {
+                                "content": "他宣扬一条苦行之路，把我丈夫不愿接受的爱都转向上帝。 "
+                            },
+                            {
+                                "content": "当他谈论这些时，他的眼中有一道神圣的燃烧之光，他握住我的双手；我感到精神的力量流入我体内，知道自己什么都能做到。",
+                                "removals": {
+                                    "tag": "这是真的，但听起来很愚蠢。"
+                                }
+                            },
+                            {
+                                "content": "但当他离开后，我的绝望更加黑暗，因为我已经看到了真正的美德应该是什么样子，而我离它有多远。 "
+                            },
+                            {
+                                "content": "<br/><br/>我也有点害怕修士。"
+                            },
+                            {
+                                "content": "他对善的狂热激情使他对魔法使用阶层感到愤怒；他说他们没有明智地使用他们的天赋，他们背叛了穷人。",
+                                "replacements": {
+                                    "tag": "如果我没有勇气问出我真正想问的，我能得到什么答案呢？"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "如果我没有勇气问出我真正想问的，我能得到什么答案呢？",
+                    "content": "因为他是如此充满活力，如此充满精神，既有动物的精神又有神圣的精神，我被他吸引，就像年轻女孩有时会错误地被她们的告解神父吸引一样。",
+                    "replacements": {
+                        "tag": "哦，但政治问题也同样令人不安。"
+                    },
+                    "removals": {
+                        "tag": "这部分太难解释了。"
+                    }
+                },
+                {
+                    "tag": "哦，但政治问题也同样令人不安。",
+                    "components": {
+                        "line": [{
+                                "content": "他对魔法使用阶层有一种能量和愤怒，说他们没有明智地使用他们的天赋。"
+                            },
+                            {
+                                "content": "我发现自己被他吸引，就像年轻女孩有时会错误地被她们的告解神父吸引一样。"
+                            },
+                            {
+                                "content": "我不确定追随他是让我更接近我丈夫还是远离他。"
+                            },
+                            {
+                                "content": "所以请告诉我，如果可以的话，我这样感觉是否正确。"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<br/><br/>朱丽叶"
                 }
-              ]
-            }
-          },
-          {
-            "tag": "That paints a more vicious picture than is entirely fair.",            "content": "Sometimes it appears the boy is very badly suited for our society. But then at other times he is an ordinary young man,  pleased to be served his breakfast chocolate, and to be winked at by serving girls, and to have coin for gambling with. In the end I think these motives will pacify him."          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "<br/><br/>Henri says, though it is difficult to trace the matter, that this friar may have found other young men and women in the same situation.",            "replacements": {
- "tag": "She will certainly be keen to know more than that." }
-          },
-          {
-            "tag": "She will certainly be keen to know more than that.",            "components": {
-              "line": [
+            ]
+        },
+        {
+            "-id": "chapter6",
+            "-speaker": "henri",
+            "line": [{
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "  <span class='date'>巴黎，1788年8月</span><br/><br/>  "
+                },
                 {
-                  "content": "<br/><br/>Henri sent to have the friar captured and imprisoned."                },
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "亲爱的小妻子，"
+                },
                 {
-                  "content": "And certainly he would have ended in the Bastille, had not someone given him warning so that he escaped."                },
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "<br/><br/> 1. 告诉她不要被修士困扰。    ",
+                    "replacements": {
+                        "tag": [
+                            "提醒她的身份。", "鼓励她理智一些。"
+                        ]
+                    }
+                },
                 {
-                  "content": "Where he may be now, no one knows."                },
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "<br/><br/>2. 询问更多关于那个男孩的事。    ",
+                    "replacements": {
+                        "tag": "给她列一个要打听的问题清单。"
+                    }
+                },
                 {
-                  "content": "It is possible that he has other young people of unacknowledged birth whom he trains in the same way."                },
+                    "tag": "提醒她的身份。",
+                    "components": {
+                        "line": [{
+                                "content": "<br/><br/>如果这个修士让你烦恼，就打发他走！"
+                            },
+                            {
+                                "content": "记住你的身份：你不再是修道院里的孩子了，而是一位贵妇人。        "
+                            },
+                            {
+                                "content": "如果你不愿意，你不需要被像他这样的人烦扰。        ",
+                                "replacements": {
+                                    "tag": "用更尊重的方式表达这件事。"
+                                }
+                            }
+                        ]
+                    }
+                },
                 {
-                  "content": "<br/><br/>Henri has had the townhouse fortified with a great many additional links against fire and break-in and plague and every sort of disaster. The boy watches and smiles a little and says nothing.",                  "replacements": {
- "tag": "I should find the courage to ask why he smiles." },
-                  "removals": {
- "tag": "But what if I dislike the answer?" }
+                    "tag": "用更尊重的方式表达这件事。",
+                    "content": "他可能是好意，但对你的世界了解太少，无法明智地建议你。"
+                },
+                {
+                    "tag": "鼓励她理智一些。",
+                    "components": {
+                        "line": [{
+                                "content": "我相信你的判断，朱丽叶。"
+                            },
+                            {
+                                "content": "你不会被琐碎的争论从明智和正义的思想中分心。"
+                            },
+                            {
+                                "content": "你太善良了。"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "给她列一个要打听的问题清单。",
+                    "components": {
+                        "line": [{
+                                "content": "<br/><br/>我确实很想知道你写的那个男孩的情况。        "
+                            },
+                            {
+                                "content": "令人惊讶的是他的家人没有以某种方式承认他。        "
+                            },
+                            {
+                                "content": "即使是私生子，一个强大的魔法师在大多数家庭都是受欢迎的。        "
+                            },
+                            {
+                                "inclusion": {
+                                    "-final": "no"
+                                },
+                                "content": "如果知道他的父亲是谁，他可能会被合法化。        ",
+                                "replacements": {
+                                    "tag": "让这听起来更像是推测。"
+                                }
+                            },
+                            {
+                                "content": "他说过什么——他母亲说过——为什么他的出生没有报告给他父亲？        "
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "让这听起来更像是推测。",
+                    "components": {
+                        "line": [{
+                                "content": "如果知道他的父亲是谁，他可能会被合法化。  "
+                            },
+                            {
+                                "content": "现在贵族中强大的魔法力量太少了。  "
+                            }
+                        ]
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<br/><br/>亨利"
                 }
-              ]
+            ],
+            "pageturn": {
+                "deniedmessage": "在这么远的距离处理她的事真难。",
+                "content": "好的，这样就可以了。"
             }
-          },
-          {
-            "tag": "I should find the courage to ask why he smiles.",            "content": "<br/><br/>Henri has had the townhouse fortified with a great many additional links against fire and break-in and plague and every sort of disaster. The boy smiles. He says it is because he has heard of a way for even non-magical men to cut through the links, and that if our enemies are strong enough and determined enough, no enchantment will protect us. But I do not choose to borrow this fear."          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<br/><br/>But as for me, whatever may come of this, I am returned to Henri, and he will hardly allow for me to leave his side, unless I wish it."          },
-          {
-            "inclusion": {
-              "-initial": "yes",              "-final": "no"            },
-            "content": "If he does not listen to me as the friar did",            "replacements": {
- "tag": "One should not miss one's enemies." }
-          },
-          {
-            "inclusion": {
- "-final": "no" },
-            "tag": "One should not miss one's enemies.",            "content": "If he is perhaps not as close a soul-mate as",            "replacements": {
- "tag": "...well? And are all women allotted such companionship?" }
-          },
-          {
-            "tag": "...well? And are all women allotted such companionship?",            "content": "I understand, perhaps, how to go on in this family at last.",            "removals": {
- "tag": "Even that sounds discontent and after all I am not unhappy." }
-          },
-          {
-            "inclusion": {
- "-initial": "yes" },
-            "content": "<br/><br/>Your Juliette"          }
-        ]
-      }
+        },
+        {
+            "-id": "chapter7",
+            "-speaker": "juliette",
+            "line": [{
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "  <span class='date'>多菲内，1788年8月</span><br/><br/>  "
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "亨利，"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "<br/><br/>你以为我这么蠢吗？",
+                    "removals": {
+                        "tag": "修道院的嬷嬷总是说，如果你不想要答案，就不要问问题。"
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "<br/><br/>这个让你如此感兴趣的男孩一定是你的儿子。我从一开始就猜到了。",
+                    "replacements": {
+                        "tag": "说得更委婉些。"
+                    }
+                },
+                {
+                    "tag": "说得更委婉些。",
+                    "content": "<br/><br/>你这么小心翼翼，但没有必要；我已经猜到这个男孩一定是你的儿子。"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "还有什么其他使用魔法的贵族会来这个地方？",
+                    "removals": {
+                        "tag": "这会招来借口和谎言。最好不要争论。"
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<br/><br/>而现在你写信给我谈论让这个男孩合法化的事。"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "我想我不应该感到惊讶。当我们相隔这么多里时，我不可能给你一个继承人。",
+                    "replacements": {
+                        "tag": "冷静，冷静。"
+                    }
+                },
+                {
+                    "tag": "冷静，冷静。",
+                    "components": {
+                        "line": [{
+                                "content": "这很合理。",
+                                "replacements": {
+                                    "tag": "合理！全城都会议论纷纷，我会被羞辱。但这会让他的家人高兴。"
+                                }
+                            },
+                            {
+                                "content": "你的家人会欢迎一个有已知能力的儿子。",
+                                "replacements": {
+                                    "tag": "比他们欢迎一个忠诚且教养良好的妻子更甚，毫无疑问。"
+                                }
+                            },
+                            {
+                                "content": "他的举止粗鲁，但我敢说可以训练。",
+                                "replacements": {
+                                    "tag": [
+                                        "亨利应该得到一个更准确的描述来知道该期待什么。", "呸，让他被误导吧！"
+                                    ]
+                                }
+                            },
+                            {
+                                "inclusion": {
+                                    "-final": "no"
+                                },
+                                "content": "毕竟，你已经纠正了我这么多小习惯。",
+                                "replacements": {
+                                    "tag": "不，他会认为这是无礼的。"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "呸，让他被误导吧！",
+                    "content": "他举止上的任何粗鲁都可以通过耐心来纠正。"
+                },
+                {
+                    "tag": "亨利应该得到一个更准确的描述来知道该期待什么。",
+                    "components": {
+                        "line": [{
+                                "content": "<br/><br/>把他介绍给社交界将是一项微妙的任务。"
+                            },
+                            {
+                                "content": "这个男孩举止粗鲁，几乎不识字，对这些山之外的世界一无所知。",
+                                "replacement": {
+                                    "tag": "那听起来像阿莉丝。"
+                                }
+                            },
+                            {
+                                "inclusion": {
+                                    "-final": "no"
+                                },
+                                "content": "经过几年的集中学习，他也许能冒充一个低级仆人。",
+                                "removals": {
+                                    "tag": "不，不，不值得这样说。这是真的，但不是男孩的错；而且听起来很恶毒。"
+                                }
+                            },
+                            {
+                                "content": "你姐姐阿莉丝可能是最适合建议如何把他培养成适合城市生活的人。"
+                            },
+                            {
+                                "content": "她对什么会让巴黎人反感有如此敏锐的判断力。",
+                                "replacements": {
+                                    "tag": "而且她如此没有良心，但她总不能勾引自己的侄子吧。"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "那听起来像阿莉丝。",
+                    "content": "这个男孩举止粗鲁，提升自己的机会有限，但我对他的品格或勇气没有任何不好的看法。",
+                    "replacement": {
+                        "tag": "我是否仍在用人而非上帝的眼光看他？"
+                    }
+                },
+                {
+                    "tag": "我是否仍在用人而非上帝的眼光看他？",
+                    "content": "他可能需要一些训练来适应我们的社会。但我对他的品格或勇气没有任何不好的看法。他一直慷慨地使用他继承的能力，对其他村民表现出很大的善意，而他本可以借机在他们面前作威作福。<br/><br/>"
+                },
+                {
+                    "tag": "而且她如此没有良心，但她总不能勾引自己的侄子吧。",
+                    "content": "她对什么会让巴黎人反感有如此敏锐的判断力，她可以为这个年轻人需要经历的学习、辅导和精神指导增添一些调剂。"
+                },
+                {
+                    "tag": "合理！全城都会议论纷纷，我会被羞辱。但这会让他的家人高兴。",
+                    "content": "这非常合理，一定会让我们认识的每个人都高兴。"
+                },
+                {
+                    "tag": "比他们欢迎一个忠诚且教养良好的妻子更甚，毫无疑问。",
+                    "content": "你的家人最欢迎的莫过于一个有已证实能力的儿子。"
+                },
+                {
+                    "tag": "不，他会认为这是无礼的。",
+                    "content": "当然，我会尽我所能让他顺利进入你的家。",
+                    "removals": {
+                        "tag": "他反正会这么认为的。"
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<br/><br/>您顺从的妻子，朱丽叶",
+                    "replacements": {
+                        "tag": "顺从，哦是的，像一只哈巴狗。他值得这种额外的保证吗？"
+                    }
+                },
+                {
+                    "tag": "顺从，哦是的，像一只哈巴狗。他值得这种额外的保证吗？",
+                    "content": "<br/><br/>您的妻子，朱丽叶"
+                }
+            ],
+            "pageturn": {
+                "deniedmessage": "不，听起来还是太生气了。",
+                "content": "好的，这样就可以了。"
+            }
+        },
+        {
+            "-id": "chapter8",
+            "-speaker": "henri",
+            "line": [{
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "  <span class='date'>巴黎，1788年8月</span><br/><br/>  "
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "朱丽叶，"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "<br/><br/>1. 阻止她对那个男孩做任何事。",
+                    "replacements": {
+                        "tag": [
+                            "尽可能温和。", "尽可能清楚。"
+                        ]
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "<br/><br/>2. 阻止她向男孩的照顾者暗示任何事。",
+                    "replacements": {
+                        "tag": [
+                            "要圆滑。", "要坚定。"
+                        ]
+                    }
+                },
+                {
+                    "tag": "尽可能清楚。",
+                    "components": {
+                        "line": [{
+                                "content": "<br/><br/>这件事很微妙。"
+                            },
+                            {
+                                "content": "你绝不能向那个男孩或他的母亲透露任何关于此事的暗示。"
+                            },
+                            {
+                                "inclusion": {
+                                    "-final": "no"
+                                },
+                                "content": "我会派一个我信任的人去观察那个男孩，决定我们应该怎么处理他。",
+                                "replacements": {
+                                    "tag": "这暗示我不信任朱丽叶。"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "这暗示我不信任朱丽叶。",
+                    "components": {
+                        "line": [{
+                                "content": "我会派一个更了解拉沃里魔法的人去观察那个男孩，帮助我们确定他能力的范围。"
+                            },
+                            {
+                                "content": "在此人到达之前，你必须做我的得力助手。"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "尽可能温和。",
+                    "components": {
+                        "line": [{
+                                "content": "<br/><br/>你的感受让你增光添彩。"
+                            },
+                            {
+                                "content": "很少有女人能如此平静地看待这件事。"
+                            },
+                            {
+                                "content": "但你什么都不要做。这件事很微妙。"
+                            },
+                            {
+                                "inclusion": {
+                                    "-final": "no"
+                                },
+                                "content": "我会派一个我信任的人去观察那个男孩，决定我们应该怎么处理他。",
+                                "replacements": {
+                                    "tag": "这暗示我不信任朱丽叶。"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "要圆滑。",
+                    "components": {
+                        "line": [{
+                                "content": "<br/><br/>我知道在修士面前假装什么都没变可能很难，但我依赖你的谨慎。"
+                            },
+                            {
+                                "content": "他收到的暗示越少越好。"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "要坚定。",
+                    "components": {
+                        "line": [{
+                                "content": "<br/><br/>同时，避免对修士说太多，但不要完全切断这层关系；我不想吓到他。"
+                            },
+                            {
+                                "content": "无论我选择做什么，都不会有教会的干涉。",
+                                "removals": {
+                                    "tag": "也许太直接了。"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<br/><br/>亨利。"
+                }
+            ],
+            "pageturn": {
+                "deniedmessage": "还不够。必须完全清楚。",
+                "content": "好的，这样就可以了。"
+            }
+        },
+        {
+            "-id": "chapter9",
+            "-speaker": "juliette",
+            "line": [{
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "  <span class='date'>多菲内，1788年8月</span><br/><br/>  "
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "亨利，"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "<br/><br/>我做了你可能认为是错误的事。",
+                    "replacements": {
+                        "tag": "他不会理解为什么。"
+                    },
+                    "removals": {
+                        "tag": "但毕竟他不是我的告解神父。"
+                    }
+                },
+                {
+                    "tag": "他不会理解为什么。",
+                    "components": {
+                        "line": [{
+                                "content": "<br/><br/>我做了你可能认为是错误的事。"
+                            },
+                            {
+                                "content": "但我害怕，为我自己也为你。 ",
+                                "removals": {
+                                    "tag": "我无法解释这种恐惧；所以最好不要提它。"
+                                }
+                            },
+                            {
+                                "content": "因此你必须告诉我我是否犯了罪，我会把你的判断作为我的指南。"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "<br/><br/>我去拜访修士，就像我大多数日子做的那样。",
+                    "replacements": {
+                        "tag": [
+                            "几乎每天，但也许最好不要提这个。", "也许一个小小的虚构是可以允许的。"
+                        ]
+                    }
+                },
+                {
+                    "tag": "几乎每天，但也许最好不要提这个。",
+                    "content": "<br/><br/>我去拜访修士。"
+                },
+                {
+                    "tag": "也许一个小小的虚构是可以允许的。",
+                    "content": "<br/><br/>我出发去给修士送饭。"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "当我走近他的小屋时，他正在指导贝尔纳黛特的儿子在一页文字上施展魔法。",
+                    "replacements": {
+                        "tag": [
+                            "这没有传达出修士的紧迫感。",
+                        ]
+                    }
+                },
+                {
+                    "content": "当我走近他的小屋时，他正让你的儿子做一项魔法任务，把一页文字变成神秘的乱码。"
+                },
+                {
+                    "tag": "这没有传达出修士的紧迫感。",
+                    "components": {
+                        "line": [{
+                                "content": "当我走近他的小屋时，他正在指导贝尔纳黛特的儿子在一页文字上施展魔法。"
+                            },
+                            {
+                                "content": "男孩抱怨说这太无聊了。"
+                            },
+                            {
+                                "content": "然而，修士坚持说必须完成这件事，没有发怒，但措辞使得那个男孩需要非常坚强的意志才能拒绝。"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "修士把一份塞进男孩手中，让他作为信件送出去——他们事先已经决定了收件人。",
+                    "replacements": {
+                        "tag": [
+                            "会是情书吗？修士在某处有风流韵事？", "最好只说我听不到收件人是谁。"
+                        ]
+                    }
+                },
+                {
+                    "tag": "会是情书吗？修士在某处有风流韵事？",
+                    "components": {
+                        "line": [{
+                                "content": "修士把一份塞进男孩手中，让他作为信件送出去——他们事先已经决定了收件人。"
+                            },
+                            {
+                                "inclusion": {
+                                    "-final": "no"
+                                },
+                                "content": "除了贵妇之外，还有谁使用魔法书信？修士一定在某处有情人。",
+                                "removals": {
+                                    "tag": "这是嫉妒在说话。"
+                                }
+                            },
+                            {
+                                "content": "我会想象这是一个阴谋，但他不像是会与领主和伯爵密谋的那种人。"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "最好只说我听不到收件人是谁。",
+                    "content": "修士把一份塞进男孩手中，让他作为信件送出去——他们事先已经决定了收件人，但我听不到可能是谁。"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<br/><br/>修士把另一份塞进了一个抽屉里。"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<br/><br/>所以，亨利，我们来说说我的过失。 "
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "当修士分心时，我把那页的内容背了下来。",
+                    "replacements": {
+                        "tag": "确实如此，但添加更多细节会让它听起来更真实。"
+                    }
+                },
+                {
+                    "tag": "确实如此，但添加更多细节会让它听起来更真实。",
+                    "components": {
+                        "line": [{
+                                "inclusion": {
+                                    "-final": "no"
+                                },
+                                "content": "修士在完成后显得非常平静，并与我进行了神学对话。",
+                                "removals": {
+                                    "tag": "主要是神学。但亨利可能会问他说了什么。"
+                                }
+                            },
+                            {
+                                "content": "过了一会儿，我说我感到头晕，恳求修士去叫一个仆人送我回家。"
+                            },
+                            {
+                                "content": "于是他去了，我拿出那页纸，把上面的胡言乱语背了下来。"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "也许你无法从中读出任何意义，但我已经把信息写下来给你看。"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<br/><br/>现在告诉我，亨利，我是否背叛了信任，我的行为是否错误；我会根据你的指导做我的忏悔。",
+                    "removals": {
+                        "tag": "太卑躬屈膝了？但我必须知道修士说了什么。"
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<br/><br/>您顺从的妻子，朱丽叶"
+                }
+            ],
+            "pageturn": {
+                "deniedmessage": "还不够。必须完全清楚。",
+                "content": "好的，这样就可以了。"
+            }
+        },
+        {
+            "-id": "chapter10",
+            "-speaker": "enclosure",
+            "line": [{
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "在山中，贵族之弓射出的箭刺入我眼 <br/>一只软弱的手束缚我的力量 <br/><br/>",
+                    "replacements": {
+                        "tag": "用魔法解密第一段"
+                    }
+                },
+                {
+                    "tag": "用魔法解密第一段",
+                    "content": "<em>我在山中找到了一个贵族的儿子。</em><br/>我正在帮助增强他的力量。这个男孩未经教导。<br/><br/>"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "那悍妇耗尽了我的精力<br/>她那无骨的配偶可耻地将她打发走了<br/><br/>",
+                    "replacements": {
+                        "tag": "解除第二段的加密。"
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-final": "no"
+                    },
+                    "tag": "解除第二段的加密。",
+                    "content": "我正在把所有骨头取出<br/>作为治疗性病的方法。<br/><br/>",
+                    "replacements": {
+                        "tag": "这不可能对。再试一次。"
+                    }
+                },
+                {
+                    "tag": "这不可能对。再试一次。",
+                    "content": "我也找到了那贵族的妻子。<br/>她的丈夫抛弃了她。<br/><br/>"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "tag": "解开第5行的链接",
+                    "content": "我淹没在她绝望的沙漠中<br/>她的双腿因即将到来的罪孽的重量而叉开<br/><br/>",
+                    "replacements": {
+                        "tag": "解密第三段。"
+                    }
+                },
+                {
+                    "tag": "解密第三段。",
+                    "components": {
+                        "line": [{
+                                "content": "她年轻且渴望感情。<br/>"
+                            },
+                            {
+                                "inclusion": {
+                                    "-final": "no"
+                                },
+                                "content": "我可以轻易地利用她。<br/><br/>",
+                                "replacements": {
+                                    "tag": "这有歧义。能澄清吗？"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "这有歧义。能澄清吗？",
+                    "content": "我可以轻易地让她张开双腿。<br/><br/>",
+                    "replacements": {
+                        "tag": "这真的是本意吗？"
+                    }
+                },
+                {
+                    "tag": "这真的是本意吗？",
+                    "content": "她在我面前没有很好的保护。<br/><br/>",
+                    "replacements": {
+                        "tag": "但文本确实提到了“利用”她。"
+                    },
+                    "removals": {
+                        "tag": "魔法无法恢复他的确切意思。最好完全删除这一行"
+                    }
+                },
+                {
+                    "tag": "但文本确实提到了“利用”她。",
+                    "content": "她可以轻易地被转变为反对她丈夫。<br/><br/>",
+                    "replacements": {
+                        "tag": "以什么方式转变？"
+                    },
+                    "removals": {
+                        "tag": "呸，这一行无法理解，太可恶了"
+                    }
+                },
+                {
+                    "tag": "以什么方式转变？",
+                    "content": "我可以让她按我的意愿做任何事。<br/><br/>",
+                    "removals": {
+                        "tag": "越来越糟，我的恐惧腐蚀了翻译"
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "tag": "解开第7行的链接",
+                    "content": "一棵脓血之树的嫩枝和树枝<br/>疯狂、亵渎，我为士兵和刺客塑造<br/><br/>",
+                    "replacements": {
+                        "tag": "解密第四段。"
+                    }
+                },
+                {
+                    "tag": "解密第四段。",
+                    "content": "我打算利用儿子和妻子来对付他们的家族。<br/>当我们还没准备好公开作战时，我们仍然可以用刺客行动。<br/><br/>"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "tag": "解开第9行的链接",
+                    "content": "骗子们必须不经审判就被割倒 <br/>那些可恨的蜂拥的压迫者失去立足之地<br/><br/>",
+                    "replacements": {
+                        "tag": "解密最后一段。"
+                    }
+                },
+                {
+                    "tag": "解密最后一段。",
+                    "content": "时机到来时，我们将杀死每一个魔法师，把他们都扔进深坑。<br/>他们对我们所做的一切将结束。他们傲慢。他们蔑视上帝。他们把我们踩在脚下。他们不知道自己的位置。我唾弃他们。<br/><br/>"
+                }
+            ]
+        },
+        {
+            "-id": "chapter11",
+            "-speaker": "henri",
+            "line": [{
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "  <span class='date'>巴黎，1788年8月</span><br/><br/>  "
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "朱丽叶 <br/><br/>我必须问你，你和这个修士的关系究竟是怎么回事，他是否已经——",
+                    "replacements": {
+                        "tag": "重新开始。"
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-final": "no"
+                    },
+                    "tag": "重新开始。",
+                    "content": "你把他当作我的替代品吗",
+                    "replacements": {
+                        "tag": "重来。冷静些。"
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-final": "no"
+                    },
+                    "tag": "重来。冷静些。",
+                    "components": {
+                        "line": [{
+                                "content": "朱丽叶，<br/><br/>"
+                            },
+                            {
+                                "content": "谢谢你转来修士的信。它非常有启发性。 "
+                            },
+                            {
+                                "inclusion": {
+                                    "-final": "no"
+                                },
+                                "content": "如果你做错了什么，那要由你自己的良心来解决。",
+                                "replacements": {
+                                    "tag": "不，我不可能"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-final": "no"
+                    },
+                    "tag": "不，我不可能",
+                    "components": {
+                        "line": [{
+                                "content": "你不是傻子，我想你一定猜到了那些话的某些含义，即使是在加密的形式下。"
+                            },
+                            {
+                                "content": "你知道我和贝尔纳黛特之间的事。我该为我年轻时的过失乞求你的原谅吗，那是在认识你之前犯下的，那时你自己还只是个婴儿？ "
+                            },
+                            {
+                                "content": "我怎么能这样做，当同一封信中，修士在炫耀他已经征服了你，或者很快就会！"
+                            },
+                            {
+                                "content": "你，朱丽叶，这世上我认为最不可能背叛我的女人。"
+                            },
+                            {
+                                "content": "我知道人们怎么说修道院。"
+                            },
+                            {
+                                "content": "每个人都警告过我修道院女孩的堕落，她们的欲望、秘密和骄傲。"
+                            },
+                            {
+                                "content": "修道院是一个花园，长着两种花，纯洁至极的和腐臭至极的。"
+                            },
+                            {
+                                "content": "我把你当作百合花，而不是毒草。"
+                            },
+                            {
+                                "content": "因为这个原因我娶了你。因为这个原因，尽管我的家人反对，我还是维护了你。"
+                            },
+                            {
+                                "content": "<br/><br/>他在诽谤你吗，朱丽叶？回答！"
+                            },
+                            {
+                                "content": "<br/><br/>我没有给你的指示。我怎么能有呢？ "
+                            },
+                            {
+                                "content": "给一个可能属于另一个男人的女人提建议有什么意义？ "
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "-id": "chapter12",
+            "-speaker": "juliette",
+            "line": [{
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<span class='date'>多菲内，1788年8月</span><br/><br/>"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "亨利，<br/><br/>"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "我没有背叛你。"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "虽然你肯定背叛了我。把我送到这里，远离所有人。一个人怎么能在这样的荒漠中生活？<br/><br/>",
+                    "removals": {
+                        "tag": "他不理解。"
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "当我成为你的妻子时，我准备好了去爱，毫无疑问地服从。你不允许我这样做。",
+                    "removals": {
+                        "tag": "他不理解。"
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "如果偶尔我想过把修士当作情人<br/><br/>",
+                    "replacements": {
+                        "tag": "没有如果。"
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-final": "no"
+                    },
+                    "tag": "没有如果。",
+                    "content": "我想过把修士当作情人。他强壮，他凶猛，我怀疑他是个疯子。我梦想他的做爱会很激烈，会在教堂墓地旁的一小片杂草中进行。之后，像一个神圣的疯狂圣人，我会燃烧着自己的火焰，什么都不怕。如果我生下一个私生子，他会有浓密的黑眉毛。<br/><br/>",
+                    "replacements": {
+                        "tag": "他肯定完全不会理解的。"
+                    }
+                },
+                {
+                    "tag": "他肯定完全不会理解的。",
+                    "content": "修士可能是个疯子。虽然他说话激烈，但我已经学会了不把所有的信仰和服从都放在一个男人身上。<br/><br/>"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "朱丽叶<br/><br/>"
+                }
+            ]
+        },
+        {
+            "-id": "chapter13",
+            "-speaker": "mother",
+            "line": [{
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<span class='date'>神圣织者修道院，1788年8月</span>"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "tag": "哦，她不习惯我这样亲昵的称呼。",
+                    "content": "<br/><br/>亲爱的朱丽叶，",
+                    "replacements": {
+                        "tag": [
+                            "一点关爱有什么害处呢？", "也许权威的外衣更能让她安心。"
+                        ]
+                    }
+                },
+                {
+                    "tag": "一点关爱有什么害处呢？",
+                    "content": "<br/><br/>亲爱的小朱丽叶，我的小宝贝和玫瑰，",
+                    "replacements": {
+                        "tag": "哦，她不习惯我这样亲昵的称呼。"
+                    }
+                },
+                {
+                    "tag": "也许权威的外衣更能让她安心。",
+                    "content": "<br/><br/>我的孩子，",
+                    "replacements": {
+                        "tag": "一点关爱有什么害处呢？"
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<br/><br/>我怀着悲伤读了你的信，亲爱的，因为你知道我一直觉得你对这个世界来说太好了。",
+                    "replacements": {
+                        "tag": [
+                            "那个丈夫。他看起来值得信任吗？不。", "不过，她的安全比一个多愁善感的老太婆的顾虑更重要。"
+                        ]
+                    }
+                },
+                {
+                    "tag": "不过，她的安全比一个多愁善感的老太婆的顾虑更重要。",
+                    "content": "<br/><br/>收到你的来信真是高兴，亲爱的，我很高兴你仍然向我倾诉。"
+                },
+                {
+                    "tag": "那个丈夫。他看起来值得信任吗？不。",
+                    "components": {
+                        "line": [{
+                                "content": "<br/><br/>我怀着悲伤读了你的信，亲爱的，因为你知道我一直觉得你对这个世界来说太好了。"
+                            },
+                            {
+                                "content": "现在我更加希望你能留在我们身边，而不是嫁给一个不能让你发挥天生的爱和美德的人。"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "<br/><br/>至于你的修士，我必须告诉你，你的描述让我为你的婚姻感到不安，因为",
+                    "replacements": {
+                        "tag": "也许在婚姻问题上给她建议是我的职责。"
+                    },
+                    "removals": {
+                        "tag": "话又说回来，也许不是。"
+                    }
+                },
+                {
+                    "tag": "也许在婚姻问题上给她建议是我的职责。",
+                    "components": {
+                        "line": [{
+                                "content": "<br/><br/>至于你的修士，我必须告诉你，你的描述让我感到不安。"
+                            },
+                            {
+                                "content": "仅仅把对丈夫的依赖转向另一个方向是不够的。"
+                            },
+                            {
+                                "content": "在那种情况下，你的忠诚将会分裂，但你仍然是一个软弱的器皿。"
+                            },
+                            {
+                                "inclusion": {
+                                    "-final": "no"
+                                },
+                                "content": "依靠上帝。所有其他的支撑都是有缺陷的。",
+                                "replacements": {
+                                    "tag": "这是给她的一条艰难的规则。而且不完整。"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "这是给她的一条艰难的规则。而且不完整。",
+                    "components": {
+                        "line": [{
+                                "content": "我不会告诉你只依靠上帝：许多恩典是通过他人来到我们身边的。"
+                            },
+                            {
+                                "content": "但要小心，不要依靠那些可能把你引入歧途的人。"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<br/><br/>我对你的修士感到怀疑。 "
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "我必须告诉你，与魔法相关的神学正在受到攻击，贵族的制度正在被削弱。",
+                    "replacements": {
+                        "tag": "朱丽叶可以理解更多。她一直是个聪明的女孩。"
+                    }
+                },
+                {
+                    "tag": "朱丽叶可以理解更多。她一直是个聪明的女孩。",
+                    "components": {
+                        "line": [{
+                                "content": "我们的教义一直是，魔法是上帝赐给他在地上的选民的礼物。"
+                            },
+                            {
+                                "content": "织者的神秘教团甚至提出，施展魔法就是在上帝的许可下借用他创造宇宙的力量。<br/><br/>"
+                            },
+                            {
+                                "content": "最近有令人不安的谣言传到我们这里，说一个古老的异端已经复活：即这种天赋本应是全人类的遗产，但出身高贵的人因其骄傲，只与彼此通婚，把它据为己有。"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "我不知道这将如何结束，但我预见到一个巨大而灾难性的变化，现在已经非常接近。",
+                    "replacements": {
+                        "tag": "让她知道更多会吓到她吗？"
+                    }
+                },
+                {
+                    "tag": "让她知道更多会吓到她吗？",
+                    "components": {
+                        "line": [{
+                                "content": "<br/><br/>某种巨大的变化已经不远了。"
+                            },
+                            {
+                                "content": "流动的传教士通过说高贵者滥用他们的天赋来激起人民的愤怒。"
+                            },
+                            {
+                                "content": "有人摧毁了支撑圣丹尼教堂的魔法链接，它的拱门被摧毁了。"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "因此，仔细审视你的修士，密切观察他，考虑他的话是来自上帝还是来自政治野心，以及对他上级的嫉妒。",
+                    "replacements": {
+                        "tag": [
+                            "也许她会对这样的措辞感到不满。", "或者也许我应该警告她她所面临的事情。"
+                        ]
+                    }
+                },
+                {
+                    "tag": "也许她会对这样的措辞感到不满。",
+                    "components": {
+                        "line": [{
+                                "content": "<br/><br/>因此，仔细审视你的修士，密切观察他。"
+                            },
+                            {
+                                "content": "在动荡时期，我们不能完全信任我们的领袖和权威，他们可能会被误导。"
+                            },
+                            {
+                                "content": "我们必须祈祷并依靠圣灵来指明正确的道路。"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "或者也许我应该警告她她所面临的事情。",
+                    "components": {
+                        "line": [{
+                                "content": "<br/><br/>因此，仔细审视你的修士，密切观察他。"
+                            },
+                            {
+                                "content": "如果他像我担心的那样是一个异端和狂热分子，他可能对你构成危险，因为虽然你自己没有魔法血统，但你嫁入的家族却有。"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<br/><br/>院长嬷嬷。"
+                }
+            ]
+        },
+        {
+            "-id": "chapter14",
+            "-speaker": "alise",
+            "line": [{
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "  <span class='date'>巴黎，1788年8月</span><br/><br/>  "
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "  我收到了你的信，亨利，我读了六七遍，但它和第一次读的时候一样没有意义。  "
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<br/><br/>这个把朱丽叶送走的胡话是什么意思？  ",
+                    "replacements": {
+                        "tag": "这听起来几乎像是我在为那个可怜虫辩护。"
+                    }
+                },
+                {
+                    "tag": "这听起来几乎像是我在为那个可怜虫辩护。",
+                    "components": {
+                        "line": [{
+                                "content": "<br/><br/>这个把朱丽叶送走的胡话是什么意思？"
+                            },
+                            {
+                                "content": "你已经把她送走了！你把她送到了乡下；你从来不去看她。 ",
+                                "replacements": {
+                                    "tag": "你知道吗，我觉得亲爱的亨利对此有一点点愧疚。"
+                                }
+                            },
+                            {
+                                "content": "至于离婚，你一定知道那是不可能的，而且我们姨妈不会容忍家族里有这种事。"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "你知道吗，我觉得亲爱的亨利对此有一点点愧疚。",
+                    "components": {
+                        "line": [{
+                                "content": "你已经把她送到了乡下；你从来不去看她。  "
+                            },
+                            {
+                                "inclusion": {
+                                    "-final": "no"
+                                },
+                                "content": "除非你去雇一个下毒的人，否则你几乎不能做得更多了。我认识一个讨厌的小老太婆，路易丝·方托，她总是暗示她为此收费。我敢说她是在编故事以引起注意，但如果你想让我介绍的话……  ",
+                                "replacements": {
+                                    "tag": "不。太过分了。"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "不。太过分了。",
+                    "content": "除非你去雇一个下毒的人，否则你几乎不能做得更多了。  "
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<br/><br/>我无法想象她做了你说的事。   "
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "  她天真得让人厌烦，这种事根本不会进入她的脑海。  ",
+                    "replacements": {
+                        "tag": "不，必须给这个女孩应有的评价。"
+                    }
+                },
+                {
+                    "tag": "不，必须给这个女孩应有的评价。",
+                    "components": {
+                        "line": [{
+                                "content": "无论你怎么说她，她不是一个伪君子。"
+                            },
+                            {
+                                "content": "是的，让我悄悄告诉你另一件事，兄弟。"
+                            },
+                            {
+                                "content": "她告诉你的这个故事并不是那么牵强。我从乡下的朋友那里听说，奇怪的私生拉沃里魔法到处出现。"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<br/><br/>您深情的姐姐阿莉丝"
+                }
+            ]
+        },
+        {
+            "-id": "chapter15",
+            "-speaker": "juliette",
+            "line": [{
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "  <span class='date'>多菲内，1788年8月</span><br/><br/>  "
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "亲爱的孩子，<br/><br/>"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "我听说了你在这个村子里，准备承认你是我的儿子。",
+                    "replacements": {
+                        "tag": "这太过了。亨利可能不会遵守为他做出的承诺。"
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "你必须立即来巴黎。",
+                    "replacements": {
+                        "tag": "也许他对妻子以外的人会更温和。"
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "避开修士的陪伴。",
+                    "replacements": {
+                        "tag": "也许我们可以特意只邀请母亲……"
+                    },
+                    "removals": {
+                        "tag": "没有什么比禁止那个男孩与他唯一的朋友交往更可疑的了。"
+                    }
+                },
+                {
+                    "tag": "这太过了。亨利可能不会遵守为他做出的承诺。",
+                    "components": {
+                        "line": [{
+                                "content": "通过我的妻子听说了你之后，我对你想学习魔法师的艺术——我们称之为阿拉克涅的拉沃里——产生了兴趣。"
+                            },
+                            {
+                                "content": "任何有天赋的人都不应该没有某种指导，所以我写信向你伸出朋友和保护者的手。"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "也许他对妻子以外的人会更温和。",
+                    "content": "如果你愿意，在我妻子和仆人的陪同下来巴黎拜访我，我会让你住得舒适，帮助你学习你想知道的一切；之后，你可以随心所欲。"
+                },
+                {
+                    "tag": "也许我们可以特意只邀请母亲……",
+                    "content": "我不能提供住处给一大家子人或众多同伴，但如果你确实希望带你母亲一起来，可以为她找到一个地方。",
+                    "removals": {
+                        "tag": "不，不。如果她想来，她会来的，但没必要主动提出。"
+                    }
+                }
+            ],
+            "pageturn": {
+                "deniedmessage": "这必须看起来有说服力，不仅对男孩，也对他的母亲和修士。",
+                "content": "好的，这样就可以了。"
+            }
+        },
+        {
+            "-id": "chapter16",
+            "-speaker": "juliette",
+            "line": [{
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<span class='date'>多菲内，1788年9月</span>"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<br/><br/>丈夫，<br/><br/>"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "1. 告诉他已经决定的事。<br/><br/>",
+                    "replacements": {
+                        "tag": [
+                            "让它简单直接，不要道歉。", "也许我至少应该承认这不是他所希望的。"
+                        ]
+                    }
+                },
+                {
+                    "tag": "让它简单直接，不要道歉。",
+                    "components": {
+                        "line": [{
+                                "content": "我写信告诉你，我要回家了，而且是立即。"
+                            },
+                            {
+                                "content": "我会带着你的儿子一起来。他的力量使他处于危险之中。"
+                            },
+                            {
+                                "content": "<br/><br/>他以为他是应你的邀请来的。"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "也许我至少应该承认这不是他所希望的。",
+                    "components": {
+                        "line": [{
+                                "content": "发生了一些事情，使我必须把你的儿子带回你身边。我现在即将出发。"
+                            },
+                            {
+                                "inclusion": {
+                                    "-final": "no"
+                                },
+                                "content": "我从观察修士中学到的，以及从院长嬷嬷那里得到的消息，表明有一个阴谋",
+                                "removals": {
+                                    "tag": "不，解释起来太复杂了，这将不得不等待。"
+                                }
+                            },
+                            {
+                                "content": "<br/><br/>你的儿子以为他是应你的邀请来的。"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "2. 说服他必须默许。<br/><br/>",
+                    "replacements": {
+                        "tag": "他必须明白这个男孩构成的危险。"
+                    }
+                },
+                {
+                    "tag": "他必须明白这个男孩构成的危险。",
+                    "components": {
+                        "line": [{
+                                "content": "如果你明智的话，你不会给他任何理由认为我撒了谎。"
+                            },
+                            {
+                                "content": "他在最具诱惑力和最危险的那种哲学家的陪伴下度过了一年多，这个人几乎让他相信他被派来纠正贵族对第三等级的不公。"
+                            },
+                            {
+                                "content": "因此，这个男孩把自己看作是一个正在训练以摧毁魔法阶层的魔法师。"
+                            },
+                            {
+                                "inclusion": {
+                                    "-final": "no"
+                                },
+                                "content": "<br/><br/>让他怀疑你拒绝他，你不希望他在你家里，他就会离开我们，成为我们最忠诚的敌人。",
+                                "replacements": {
+                                    "tag": "不，这不足以让他理解。"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "不，这不足以让他理解。",
+                    "components": {
+                        "line": [{
+                                "content": "<br/><br/>让他怀疑你拒绝他，你不希望他在你家里，他就会离开我们，成为我们最忠诚的敌人。"
+                            },
+                            {
+                                "content": "我看到他和修士一起在田野里奔跑，修士是他的向导；我听到了他们的对话。"
+                            },
+                            {
+                                "content": "他学习的既是如何打破魔法的纽带，也是如何创造它们。"
+                            },
+                            {
+                                "content": "如果他以目前的状态来到贵族中间，他将摧毁我们大部分的力量。"
+                            },
+                            {
+                                "content": "<br/><br/>教导他正确的做事方式将是你的责任。"
+                            },
+                            {
+                                "content": "如何用他的力量创造，以及这样做的价值。它的神学和目的。"
+                            },
+                            {
+                                "content": "如果你的意志不够坚定来做这件事，他肯定会离开我们。"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "3. 表明我不容争辩。",
+                    "replacements": {
+                        "tag": "让它听起来像是一个宗教性质的选择。"
+                    }
+                },
+                {
+                    "tag": "让它听起来像是一个宗教性质的选择。",
+                    "content": "<br/><br/>我所做的一切，我已经向更高的权威忏悔过了，我心里已经坦然。"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<br/><br/>朱丽叶"
+                }
+            ],
+            "pageturn": {
+                "deniedmessage": "还不够清楚。",
+                "content": "好的，这样就可以了。"
+            }
+        },
+        {
+            "-id": "chapter17",
+            "-speaker": "alise",
+            "line": [{
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<span class='date'>巴黎，1788年12月</span><br/><br/>"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "亲爱的亨利，"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<br/><br/>我怀疑我这辈子是否享受过像观看你儿子被介绍给约瑟芬姨妈那样的娱乐活动。"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "如果这是三个月行为训练的结果，我恳请你在他再受五年教育之前不要把他介绍给任何人。"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "我们家族的声誉承受不了一个把手指伸进汤里的后裔。",
+                    "removals": {
+                        "tag": "虽然当然可以。特别是一个有如此力量的后裔。"
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<br/><br/>但当然这几乎无关紧要！"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "当他打破她那把可怕的魔法扇子上的链接时，约瑟芬脸上的表情！ ",
+                    "replacements": {
+                        "tag": "真是纯粹快乐的一刻。"
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<br/><br/>我相信她打算立即给你和他一笔可观的款项。"
+                },
+                {
+                    "tag": "真是纯粹快乐的一刻。",
+                    "components": {
+                        "line": [{
+                                "content": "当他打破她那把可怕的魔法扇子上的链接时，约瑟芬脸上的表情！"
+                            },
+                            {
+                                "content": "愤怒的喜悦是你以前见过的表情吗？我遗憾的是我们手边没有画家来记录如此史无前例的事情。",
+                                "replacements": {
+                                    "tag": "哦，还必须提一下撒马尔罕的事！"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "哦，还必须提一下撒马尔罕的事！",
+                    "content": "<br/><br/>更重要的是，我们再也不用听她说那是多么<em>强大</em>的传家宝，它扇出的微风是从撒马尔罕直接魔法传来的。她总是声称能闻到异国香料，但<em>我</em>从来只闻到普通的巴黎空气。"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "同时朱丽叶似乎变化很大。我几乎喜欢她了。",
+                    "replacements": {
+                        "tag": "不，不是这样。"
+                    }
+                },
+                {
+                    "tag": "不，不是这样。",
+                    "components": {
+                        "line": [{
+                                "content": "<br/><br/>至于你的朱丽叶！"
+                            },
+                            {
+                                "inclusion": {
+                                    "-final": "no"
+                                },
+                                "content": "自从M夫人被那个主教勾引以来，我还没见过一个女人变化得如此之好，你还记得吗",
+                                "replacements": {
+                                    "tag": "呸，他肯定会把我的话当真。"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "呸，他肯定会把我的话当真。",
+                    "components": {
+                        "line": [{
+                                "content": "当我祝贺她发现了你的魔法私生子时，她斜眼看着说弗朗索瓦可能也留下了类似的宝贝，我应该留意一下。"
+                            },
+                            {
+                                "content": "这正是一个嫂子应该说的话。"
+                            },
+                            {
+                                "content": "我要送她我的钻石猫胸针作为礼物，也因为它很丑。"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<br/><br/>您非常欣慰的姐姐，阿莉丝"
+                }
+            ]
+        },
+        {
+            "-id": "chapter18",
+            "-speaker": "juliette",
+            "line": [{
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "  <span class='date'>巴黎，1月</span><br/><br/>  "
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "凯瑟琳-阿涅丝嬷嬷，<br/><br/>"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "感谢您的指导。<br/><br/>"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "我们了解到的关于修士的事情对他来说一点也不有利。"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "因为看来他发现了亨利的一个私生子，具有强大的魔法能力，并打算让他对我们和我们的阶层产生厌恶。",
+                    "replacements": {
+                        "tag": "打算……事实上差点成功了。"
+                    }
+                },
+                {
+                    "tag": "打算……事实上差点成功了。",
+                    "components": {
+                        "line": [{
+                                "content": "因为看来他发现了亨利的一个私生子，具有强大的魔法能力，并打算让他对我们和我们的阶层产生厌恶。"
+                            },
+                            {
+                                "content": "<br/><br/>确实，这个男孩非常不适合我们的社会。有时他的眼中有狼的神情。他往一个喷泉链接里撒尿，在事情被逆转之前，用尿淹死了我婆婆的鲤鱼。",
+                                "replacements": {
+                                    "tag": "这比事实描绘了一幅更恶劣的画面。"
+                                },
+                                "removals": {
+                                    "tag": "也许对一件家事说太多闲话是不恰当的。"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "这比事实描绘了一幅更恶劣的画面。",
+                    "content": "有时候这个男孩似乎非常不适合我们的社会。但有时他又是一个普通的年轻人，乐于被端上早餐巧克力，被女仆抛媚眼，有钱赌博。最终我认为这些动机会使他安分下来。"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "<br/><br/>亨利说，虽然很难追查此事，但这个修士可能已经发现了其他处于同样情况的年轻男女。",
+                    "replacements": {
+                        "tag": "她肯定很想知道更多。"
+                    }
+                },
+                {
+                    "tag": "她肯定很想知道更多。",
+                    "components": {
+                        "line": [{
+                                "content": "<br/><br/>亨利派人去抓捕和监禁修士。"
+                            },
+                            {
+                                "content": "如果不是有人向他通风报信让他逃跑，他肯定会被关进巴士底狱的。"
+                            },
+                            {
+                                "content": "他现在在哪里，没人知道。"
+                            },
+                            {
+                                "content": "他可能还有其他未被承认出身的年轻人，他以同样的方式训练他们。"
+                            },
+                            {
+                                "content": "<br/><br/>亨利让城里的住宅用大量额外的链接加固，防止火灾、闯入、瘟疫和各种灾难。男孩看着，微微一笑，什么也不说。",
+                                "replacements": {
+                                    "tag": "我应该鼓起勇气问他为什么笑。"
+                                },
+                                "removals": {
+                                    "tag": "但如果我不喜欢答案怎么办？"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "tag": "我应该鼓起勇气问他为什么笑。",
+                    "content": "<br/><br/>亨利让城里的住宅用大量额外的链接加固，防止火灾、闯入、瘟疫和各种灾难。男孩微笑着。他说这是因为他听说过一种方法，即使是没有魔法的人也能切断这些链接，如果我们的敌人足够强大和坚定，任何魔法都无法保护我们。但我选择不借用这种恐惧。"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<br/><br/>但至于我，无论这件事的结果如何，我已经回到亨利身边，除非我愿意，否则他几乎不会让我离开他的身边。"
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes",
+                        "-final": "no"
+                    },
+                    "content": "如果他不像修士那样倾听我",
+                    "replacements": {
+                        "tag": "不应该想念自己的敌人。"
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-final": "no"
+                    },
+                    "tag": "不应该想念自己的敌人。",
+                    "content": "如果他也许不是像那样亲密的灵魂伴侣",
+                    "replacements": {
+                        "tag": "……那又怎样？所有女人都被分配到这样的陪伴吗？"
+                    }
+                },
+                {
+                    "tag": "……那又怎样？所有女人都被分配到这样的陪伴吗？",
+                    "content": "我也许终于明白了如何在这个家庭中继续下去。",
+                    "removals": {
+                        "tag": "即使这听起来也不满足，毕竟我并不不快乐。"
+                    }
+                },
+                {
+                    "inclusion": {
+                        "-initial": "yes"
+                    },
+                    "content": "<br/><br/>您的朱丽叶"
+                }
+            ]
+        }
     ]
-  };
+};
